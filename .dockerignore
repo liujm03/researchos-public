@@ -1,0 +1,14 @@
+.git
+.env
+.venv
+.pnpm-store
+node_modules
+**/node_modules
+**/.next
+**/__pycache__
+data
+*.db
+*.sqlite
+*.dump
+apps/web/public/local
+apps/web/public/pdfjs

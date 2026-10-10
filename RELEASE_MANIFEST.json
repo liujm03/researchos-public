@@ -1,0 +1,3258 @@
+{
+  "contract": "researchos-blank-source-v1",
+  "version": "v0.1.0",
+  "owner_data_included": false,
+  "preconfigured_integrations": false,
+  "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 151,
+      "sha256": "a6046c50b2fe08ade696bb1395d8c69807429f6aa58f4463b680d36b4bd154b0"
+    },
+    {
+      "path": ".env.example",
+      "bytes": 6322,
+      "sha256": "1243784d49c0957f16c010596972631a83b2c2ab0694e6a3f83117562703eabe"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 355,
+      "sha256": "246d063ab424daeeddfe07a6395079b282f801ae50251cf220752bba127367be"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 1547,
+      "sha256": "30e7ba08654a2c375344faaaff976607db38652b1548e64dd54fd51214ac021e"
+    },
+    {
+      "path": "AI_HANDOFF.md",
+      "bytes": 1534,
+      "sha256": "2cda65e9b8ffb8b4ed63ad818a78f25c6c98fa207fd5af96250dfa20b7a29e62"
+    },
+    {
+      "path": "API.md",
+      "bytes": 990,
+      "sha256": "66c710ed8950c8f4a7deed6c17bf7c6fca0d1b7ba31cfccddafb51784b091487"
+    },
+    {
+      "path": "apps/api/alembic/env.py",
+      "bytes": 2315,
+      "sha256": "9f8a5f1ebae9b5887669a9af314931b9ac0635788f9bf164c04ab0e7c8889f16"
+    },
+    {
+      "path": "apps/api/alembic/versions/048d5a4afed9_analysis_input_and_budget_reservation.py",
+      "bytes": 1358,
+      "sha256": "583715d365f5accae80d794eb271e98f3d39e2f56dc160150b370f8ff8eff064"
+    },
+    {
+      "path": "apps/api/alembic/versions/0caa5bfbb4f3_literature_pipeline_foundations.py",
+      "bytes": 23724,
+      "sha256": "051b9a7cb12724aab32bc5fc32519cf1763be815ce1508d9cb1f7ff94ebef70f"
+    },
+    {
+      "path": "apps/api/alembic/versions/725bbdea6455_initial_phase_1_schema.py",
+      "bytes": 18865,
+      "sha256": "75d9a724cb2a8793483cf23acee47833399dbc124773af09b2a44f9c3a3ab863"
+    },
+    {
+      "path": "apps/api/alembic/versions/a03720260929_zotero_auto_schedule.py",
+      "bytes": 1254,
+      "sha256": "d962316f9d8ce196ec0afa238229f9059a2cee735f075e0220dae1697c7cc0f9"
+    },
+    {
+      "path": "apps/api/alembic/versions/a04820260929_long_paper_analysis_parts.py",
+      "bytes": 3262,
+      "sha256": "974b0e7e8a97ff6a87b8ecf684a39f368a87a4f0fb687d655eafc3420ab55163"
+    },
+    {
+      "path": "apps/api/alembic/versions/a04920260930_postgres_search_indexes.py",
+      "bytes": 1779,
+      "sha256": "33fe9aa85f39370419770e59a904782314e1e30ac1ce01a501d093d57cabc638"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05020260930_paper_source_provenance.py",
+      "bytes": 662,
+      "sha256": "e3d1e668a52ba0c4499bf3c67c7a8ff609aa1ef705b2710a09c5c6928d779fe7"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05120261001_canonical_arxiv_identity.py",
+      "bytes": 12355,
+      "sha256": "f493ec6fa31095268d08509fac57e0ec341bc93ad787da1380d0471611553bc1"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05220261001_zotero_manual_sync.py",
+      "bytes": 5604,
+      "sha256": "1213c8187ee71e2ed06309e4f399684b1e8e167dba464c5e34c1378aada33f61"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05320261001_dynamic_paper_outline.py",
+      "bytes": 1946,
+      "sha256": "da7f9e49f36ffdb428cb61cbbc59492e505897b3b749d25997c0d7256bf81f1f"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05420261001_codex_provider_quota.py",
+      "bytes": 812,
+      "sha256": "7247eb8f46aa75327ec15b182ca9fa3ad9851688aaa65cea4577260059682b4e"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05520261001_clear_literature_tasks.py",
+      "bytes": 443,
+      "sha256": "ac0ce17129599aff396e4ae7a51ff16181895e3fbf390600d7df3037d3180894"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05620261002_paper_reproduction_context.py",
+      "bytes": 4540,
+      "sha256": "1cb2730d06c93a657bd712441aed0460a0640a54dbb8dbe70aea9b1fbae9b07b"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05720261003_experiment_foundation.py",
+      "bytes": 24650,
+      "sha256": "422cb63116d721aa164e31fd1e5f4f5080b16d288dc9cc7d032bb070d1855fe3"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05820261003_direct_pdf_skill_reading.py",
+      "bytes": 2649,
+      "sha256": "123340141bfd07ca124448f59470e353dd80aa7237f6f9c808ef2529f19b6791"
+    },
+    {
+      "path": "apps/api/alembic/versions/a05920261003_repository_imports.py",
+      "bytes": 12408,
+      "sha256": "a73b7dbd1fc2be6300a52e88d84040228534f3d6328374db92529272278b04f7"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06020261003_approved_analytical_notes.py",
+      "bytes": 7705,
+      "sha256": "3260b31629d993572194f5ce8152e34e5ca6c434cbf6aed43c79bcc207316fa5"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06120261003_canonical_publication_recovery.py",
+      "bytes": 2560,
+      "sha256": "3e19b5122c0dc97ee8185b099ecc772f15d850a8126d2d722035e01dfee1a6e6"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06220261004_project_archive_inventory.py",
+      "bytes": 6410,
+      "sha256": "25edc4fee00e5460eca6d14a1157034e3408867e31c735e5ab40540e600edd5a"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06320261004_project_archive_jobs.py",
+      "bytes": 8048,
+      "sha256": "058554d3cc1b20334634efa9884446d35077ef8a19d08b83a043ec894a00b639"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06420261004_project_provisioning.py",
+      "bytes": 9443,
+      "sha256": "e442e231408696b0bfe2a53bce114fbe050cb2dd4f6366009a6ec75d429cb22e"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06520261004_reading_skill_files.py",
+      "bytes": 2817,
+      "sha256": "52bb05b87b0edcc62e2228969662d7494c1aac38bd92f119a2abc944c9b9571e"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06620261004_research_briefs.py",
+      "bytes": 7153,
+      "sha256": "c39b9cb25c90ec3ee71a2f59b7ef6af2bcd1a537c5995e655b5b26ac601833ab"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06720261004_research_planning.py",
+      "bytes": 17494,
+      "sha256": "72cfe7ae8d1f79029dd35f3af5d1a610e979ee84ffe9b717d218b20572ea4f99"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06820261004_planning_brief_proposals.py",
+      "bytes": 14119,
+      "sha256": "ec3317b70bececf9a0917122dd734589c20ec0e95280934d83be9a6ebc6a01a5"
+    },
+    {
+      "path": "apps/api/alembic/versions/a06920261004_repository_assets.py",
+      "bytes": 15742,
+      "sha256": "15d483a9ae61ee12ec9732695b228d388d4d63b9fc88480cb7ccfff05752d348"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07020261004_project_sources.py",
+      "bytes": 18262,
+      "sha256": "0987f8c2f9313b7aee61a932b802eadc1cb182e0509fd9fdb6661a9acc4f73ea"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07120261004_baselines.py",
+      "bytes": 18263,
+      "sha256": "6032ab6cde42610dec06fe0fd4c18e497f3713e15fdea6fd08c208ab20e3ce5f"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07220261005_baseline_runs.py",
+      "bytes": 22871,
+      "sha256": "c3ef0bf076b29deaa8a1f2b134e2509d81776b0373e64b857cbcbe59b5ecd5a5"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07320261007_canonical_reproduction_sources.py",
+      "bytes": 11805,
+      "sha256": "77cc45245fd1c370560d66df4abac12080be99a07c6f4278b34850191a4aa3a1"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07420261007_canonical_markdown_contract.py",
+      "bytes": 2050,
+      "sha256": "0e1512676ff7e1cc1a2bf03c809c7732d449ef5b5b0848279991331002d4a181"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07520261008_literature_recommendations.py",
+      "bytes": 12264,
+      "sha256": "22e7da54b7df7aeea7b6aad6afa4083d058cb837664473699dbaf94c3344bc4a"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07620261008_server_task_packages.py",
+      "bytes": 15495,
+      "sha256": "ddd09a8299bf66505b2eb9981e52b8e199e4a4f39b36b227b5a3e66d9a65c1a0"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07720261008_server_results.py",
+      "bytes": 16754,
+      "sha256": "9af83af0a31cd34579fc8fa1f3bdbb161c7f329b03319e36e9590c47ee0ad7cb"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07820261008_brief_canonical_sources.py",
+      "bytes": 5313,
+      "sha256": "6b69bd6d2bd9011fed83bcb0055561e2bdedcd33ca9d43c58eeb2ae093dabab0"
+    },
+    {
+      "path": "apps/api/alembic/versions/a07920261008_bounded_code_changes.py",
+      "bytes": 10789,
+      "sha256": "298a0b1bc5e65b0979fab18931d3d4a4d2b008927462d8bc57b8eb82f303543f"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08020261008_immutable_research_ideas.py",
+      "bytes": 14891,
+      "sha256": "2e4006046f9c9092668ca3c58216794b2b14f30b56feb6aec4e5ae8e074b7924"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08120261008_claims_and_evidence_bundles.py",
+      "bytes": 23691,
+      "sha256": "0e8a58e8242dbf69953b460bc73f4a137a5ccd9d036abd178ec4580750f72738"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08220261008_publication_workspace.py",
+      "bytes": 16500,
+      "sha256": "d9b3ee810a48c4768395c51a4aa19ac29d463ed1caa6a3da5ab9d31f6703eb50"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08320261008_writing_skills.py",
+      "bytes": 9900,
+      "sha256": "035470024769311bc8300f67f5288d20b1f41d88ee0c7c8165899e0b35abd22a"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08420261009_persistent_manuscript_builds.py",
+      "bytes": 22019,
+      "sha256": "70ce9a82ce3118161e254f489a5ee2bc9dc68fd71f978459531ee65c44cfb337"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08520261009_recoverable_generated_note_trash.py",
+      "bytes": 6755,
+      "sha256": "0ca6328e0e8d4b866b86e4c0c82ca4d4e22bff1c4ca497d1d7d02e6d1d456b40"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08620261009_venue_assessments.py",
+      "bytes": 3798,
+      "sha256": "20ecfe4d08f55704f7d9706759291ea9074b235e6a1fbebc4e912822ea4a6882"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08720261009_zotero_venue_fields.py",
+      "bytes": 1438,
+      "sha256": "089bf4249f9e59e09ca98dc6b52ff3c0d703b80a93d21d87572adf8b8bfae0a4"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08820261009_irreversible_generated_note_deletion.py",
+      "bytes": 9812,
+      "sha256": "e0ec7add2de90d53df49f4c7fc14429d08f4a90a2c020a76fcc7b341118a6815"
+    },
+    {
+      "path": "apps/api/alembic/versions/a08920261009_pdf_annotations.py",
+      "bytes": 5378,
+      "sha256": "8c0f8d41a212519d091f62ee554e816fe67f8d8331323750a06830425dd375a0"
+    },
+    {
+      "path": "apps/api/alembic/versions/a09020261010_note_projects.py",
+      "bytes": 2484,
+      "sha256": "8a1d4d7f74bf9231faea4e3596c1d2942e2107a3dce90af0fe28e6e2b960f871"
+    },
+    {
+      "path": "apps/api/alembic/versions/a910d6625f3b_durable_pdf_parse_jobs.py",
+      "bytes": 2519,
+      "sha256": "2997ad3b554eba1098d70ee88b484e8e219a40d03142c9ce5dd172870d8591c1"
+    },
+    {
+      "path": "apps/api/alembic/versions/b0d620260929_codex_token_budget.py",
+      "bytes": 670,
+      "sha256": "e90068c9da433d003d02a9e29bf4bfab65d46452f9779a2a110ad8e4ba1381a5"
+    },
+    {
+      "path": "apps/api/alembic/versions/b41d6e9a7332_attachment_versions.py",
+      "bytes": 968,
+      "sha256": "4fad1567e557afbbe73af1f83c1e041ae6f6e9aeabd0612c926121da5264043c"
+    },
+    {
+      "path": "apps/api/alembic/versions/c0d3e20260929_codex_gateway.py",
+      "bytes": 3670,
+      "sha256": "6fb59f5be9294a766823f8dbdba0c8015872cb3c8880b8a7b74cd71d2060313a"
+    },
+    {
+      "path": "apps/api/alembic/versions/c91a83e4f211_single_owner.py",
+      "bytes": 1018,
+      "sha256": "550b5e97fd15e64e6765809e9ccbc2f57d095af238ee66f1829a22d3f8c13722"
+    },
+    {
+      "path": "apps/api/alembic/versions/d1ff20260929_codex_review_patch.py",
+      "bytes": 632,
+      "sha256": "5ef93517c22306fbbd54bea4feafffded98b395ca18d6a087940a0ff65894717"
+    },
+    {
+      "path": "apps/api/alembic/versions/e2a920260929_literature_ingest_jobs.py",
+      "bytes": 3622,
+      "sha256": "8a955cc336763a6fd86258e7bdaa529cc67fecc6f25ffd2a0b6dc054abe99e01"
+    },
+    {
+      "path": "apps/api/alembic/versions/e5d7c91a2b63_paper_sources.py",
+      "bytes": 1683,
+      "sha256": "f71a122b0436f61966014e4d8a79c583b6c979021e4e02e15a6ba233f72a313b"
+    },
+    {
+      "path": "apps/api/alembic/versions/f1a920260929_ingest_attachment_fingerprint.py",
+      "bytes": 521,
+      "sha256": "edaab7230a33d65a105693323fa562cc75537aa4eaa597eea7c4a1ea93bb53a8"
+    },
+    {
+      "path": "apps/api/alembic.ini",
+      "bytes": 593,
+      "sha256": "7a187967ea55fe124ece72367c45fa69e13a1b9af2d2c7e3b7c293f681f982a8"
+    },
+    {
+      "path": "apps/api/app/__init__.py",
+      "bytes": 34,
+      "sha256": "c64a982b9b2f55dacd1689350d9858597676948da9f4347b175d5f33de3a5cd5"
+    },
+    {
+      "path": "apps/api/app/api/__init__.py",
+      "bytes": 19,
+      "sha256": "dccd432cc4aa10715dddb5258dde68d25b307bb1e54551b3221256ea30a3bdac"
+    },
+    {
+      "path": "apps/api/app/api/attachment_download.py",
+      "bytes": 4798,
+      "sha256": "0747d07d2b0562770c512ba7ca5a754281beee69fbacd9878d02e1cfb71acb56"
+    },
+    {
+      "path": "apps/api/app/api/deps.py",
+      "bytes": 1163,
+      "sha256": "517bceba64046e5615c5546afd8ff3cac0cfb268ee601fbe0ceea42b615954ca"
+    },
+    {
+      "path": "apps/api/app/api/pdf_upload.py",
+      "bytes": 4056,
+      "sha256": "5a5669156abcb9740b87c49e7707fed91692e11b8fce73d8bcdb16e51355ee2b"
+    },
+    {
+      "path": "apps/api/app/api/routes/__init__.py",
+      "bytes": 22,
+      "sha256": "76d4d38e0263e1501119919a59472a3d5f9e1a0b6b818185d182e2171a49362c"
+    },
+    {
+      "path": "apps/api/app/api/routes/analysis.py",
+      "bytes": 32766,
+      "sha256": "9603f347d867b8669d00c47362cd054d7f844cf17a832e52399fa56d095cba28"
+    },
+    {
+      "path": "apps/api/app/api/routes/analytics.py",
+      "bytes": 1693,
+      "sha256": "bfe87ad65ac5483dd4ab0355c9b648028676e7a6f405e56d1ec4f8fce2214d74"
+    },
+    {
+      "path": "apps/api/app/api/routes/arxiv_import.py",
+      "bytes": 2425,
+      "sha256": "ad191038b8c12b7fdf876a73454278e2186cfc460c6e15c0108640ba865d0560"
+    },
+    {
+      "path": "apps/api/app/api/routes/attachments.py",
+      "bytes": 15598,
+      "sha256": "29cb811814164f655caaee6e4d98b8500529a5357b08d3efbfa686acf0d598cb"
+    },
+    {
+      "path": "apps/api/app/api/routes/auth.py",
+      "bytes": 3919,
+      "sha256": "ac47ac8610722c2a777f41dfc49da9a270e8f16aabc9ae9f8eb7c675917a3e16"
+    },
+    {
+      "path": "apps/api/app/api/routes/baseline_runs.py",
+      "bytes": 6103,
+      "sha256": "4770b3c11611fd4478033a9df0ab9a78027f9916b4725ab87f433d300c6a87d0"
+    },
+    {
+      "path": "apps/api/app/api/routes/baselines.py",
+      "bytes": 6220,
+      "sha256": "80f2d901af46f671b054433905c71e3835b7aac5f81e49d894b07b8a7d35ab41"
+    },
+    {
+      "path": "apps/api/app/api/routes/bibliography_import.py",
+      "bytes": 3029,
+      "sha256": "90f5163c1caf28aa607819807540a8a35cce435b204bb068d172bf0b8a97cea4"
+    },
+    {
+      "path": "apps/api/app/api/routes/claims.py",
+      "bytes": 9661,
+      "sha256": "af33a19b519af1a13eb3827dfd0fe72411f612851d2a889f691f39b71231645e"
+    },
+    {
+      "path": "apps/api/app/api/routes/code_changes.py",
+      "bytes": 4346,
+      "sha256": "a6fa8cb298663c85adb5736a1b3ea9258ac0711350a63820726a65ae04f73821"
+    },
+    {
+      "path": "apps/api/app/api/routes/codex.py",
+      "bytes": 6736,
+      "sha256": "79eab49a86e7b458c789c6a949c351217ac18e7f2f9b85f885baa695d7295817"
+    },
+    {
+      "path": "apps/api/app/api/routes/doi_import.py",
+      "bytes": 2089,
+      "sha256": "dc4b584470c53e9940d78abce5db3995fb90ee1c805ad65df2a9cecdc188c034"
+    },
+    {
+      "path": "apps/api/app/api/routes/evidence_bundles.py",
+      "bytes": 6649,
+      "sha256": "7e15d6d74a6076074d051f8ca6524807a01a68c54f38ce74eac200ace109ed5d"
+    },
+    {
+      "path": "apps/api/app/api/routes/experiment_artifact_upload.py",
+      "bytes": 2570,
+      "sha256": "ed387597d6bfc73be1f91ed6e139033311917400d068a9730658c9a4a812aa1c"
+    },
+    {
+      "path": "apps/api/app/api/routes/experiment_registries.py",
+      "bytes": 12412,
+      "sha256": "f4cf54bd60a557a0d08471c0fa316226703bc698102cc92528ce8af0820bebf1"
+    },
+    {
+      "path": "apps/api/app/api/routes/experiments.py",
+      "bytes": 10335,
+      "sha256": "92dbd1aed9568d26096785c8c415babe9b284a737c5fd86148023f0dfd63c181"
+    },
+    {
+      "path": "apps/api/app/api/routes/ideas.py",
+      "bytes": 5805,
+      "sha256": "fb888c14bf723b461af10503c1eb05e1ce39a43e22d0e35b75bffd646df422ac"
+    },
+    {
+      "path": "apps/api/app/api/routes/literature_classification.py",
+      "bytes": 2069,
+      "sha256": "e906f8d4c1f39fb64846ad2fa080e9e6cf37e19679dec4ea21d2beb662867610"
+    },
+    {
+      "path": "apps/api/app/api/routes/literature_ingest.py",
+      "bytes": 4907,
+      "sha256": "941708f8ab621b435a1af072f939ab830787d128583b2352d0cefe923ac122a2"
+    },
+    {
+      "path": "apps/api/app/api/routes/literature_providers.py",
+      "bytes": 1259,
+      "sha256": "f48476853deaaa1b7c0eb530d79378ebe4a043bc87d3627964ab78e2bdb0b7a7"
+    },
+    {
+      "path": "apps/api/app/api/routes/literature_recommendations.py",
+      "bytes": 4293,
+      "sha256": "50a6b3bd03fdec9d689c7e236ac7b27163bfd389c22ef848269c5bca8b2dc5ad"
+    },
+    {
+      "path": "apps/api/app/api/routes/manuscript_builds.py",
+      "bytes": 11957,
+      "sha256": "1f6cdc80f72e3199162bbf2cc47a267d9a6c7ea52e4948d4243448fde40eb6fa"
+    },
+    {
+      "path": "apps/api/app/api/routes/note_deletion.py",
+      "bytes": 2272,
+      "sha256": "656c3611a92988ce41932d97e39eabe47362b899d5c9c0674ddcf46a49820f7d"
+    },
+    {
+      "path": "apps/api/app/api/routes/note_trash.py",
+      "bytes": 3775,
+      "sha256": "76df493e9c33f3c3e0bb6c968e9c4064b61b947a4f768ec2d07ff6de488af076"
+    },
+    {
+      "path": "apps/api/app/api/routes/paper_reproduction.py",
+      "bytes": 4699,
+      "sha256": "db5f1c0aba617100a4c65b821c7612abee394ce1acce8a6f4cf25dc1c25b1b23"
+    },
+    {
+      "path": "apps/api/app/api/routes/papers.py",
+      "bytes": 10304,
+      "sha256": "15592dbd17429a4b981590bdcb4d3c59229107382f88330333d2928c27b894e3"
+    },
+    {
+      "path": "apps/api/app/api/routes/pdf_annotations.py",
+      "bytes": 4237,
+      "sha256": "094070b8a936704118fb09dc068051951402438a57861e2a1725182d73e87f27"
+    },
+    {
+      "path": "apps/api/app/api/routes/pdf_reading.py",
+      "bytes": 5482,
+      "sha256": "f9a55c57de1e42af1997e852a8af76f95ef0f118ade5c8c07e07898b9ba2f590"
+    },
+    {
+      "path": "apps/api/app/api/routes/planning_brief_proposals.py",
+      "bytes": 1731,
+      "sha256": "7d0d350c894ada9b5523a8b655ecd3b1d30c2cd11b1084d863dec1429b065bce"
+    },
+    {
+      "path": "apps/api/app/api/routes/portability.py",
+      "bytes": 2592,
+      "sha256": "01200b7a511b30fc518924c0aaf6812f0fddc05b2ea76d5ba03396de40920873"
+    },
+    {
+      "path": "apps/api/app/api/routes/productivity.py",
+      "bytes": 7181,
+      "sha256": "a892420d3821478ffc1a38ecd110fbd79d882f071c71c8190333d40db4d9d062"
+    },
+    {
+      "path": "apps/api/app/api/routes/project_archives.py",
+      "bytes": 5050,
+      "sha256": "8fcd8b6858dd6cd693b73ab13132616114de92971c7fa9155771ec3b96fd660e"
+    },
+    {
+      "path": "apps/api/app/api/routes/project_sources.py",
+      "bytes": 8677,
+      "sha256": "e9d175ab0d0b814e962e37a18b17fee47921dd478818ea0be0b08689fb17dd3e"
+    },
+    {
+      "path": "apps/api/app/api/routes/projects.py",
+      "bytes": 7812,
+      "sha256": "c213ea3262c495fb7240a81cb0aefc299a8d376eaf0fe5c9876f823e29892e12"
+    },
+    {
+      "path": "apps/api/app/api/routes/provisioning.py",
+      "bytes": 4271,
+      "sha256": "c5a1a8aff7edb754dbf6b6aa4c007fb4e026d9404091f57d6d6fec33bb7b130c"
+    },
+    {
+      "path": "apps/api/app/api/routes/publications.py",
+      "bytes": 8920,
+      "sha256": "afb10b56709ae01e2559f55dfb77836acf2bc5f45d2082eeb6573c60e39011b8"
+    },
+    {
+      "path": "apps/api/app/api/routes/reference_manager.py",
+      "bytes": 9365,
+      "sha256": "cbbeb6298325813a9ceb76fc13300e7d4f5dc279cd9167260e81b13e339eb16a"
+    },
+    {
+      "path": "apps/api/app/api/routes/repository_assets.py",
+      "bytes": 6459,
+      "sha256": "fdf2242cd463105aa090b09f89cf23a72837dda6862435a9f0c9342624152419"
+    },
+    {
+      "path": "apps/api/app/api/routes/repository_imports.py",
+      "bytes": 2836,
+      "sha256": "8ca33052bbe5262f890dd098ab8c8d269f0f0e2034111e839189703bad67c8fc"
+    },
+    {
+      "path": "apps/api/app/api/routes/research_briefs.py",
+      "bytes": 2968,
+      "sha256": "a6e4c3f7e8285727c7c8a214ab43e5d92c7ac05d6f75579f4c293750c6665225"
+    },
+    {
+      "path": "apps/api/app/api/routes/research_planning.py",
+      "bytes": 5084,
+      "sha256": "93168eeb29d136cc0bc7bdd634b92a4f8fe202030a79ab5302e4434144a9a46c"
+    },
+    {
+      "path": "apps/api/app/api/routes/server_results.py",
+      "bytes": 6359,
+      "sha256": "901f658e01aac161ba169b0298045600b9ae319a4e89420512e6be9fb44fd88e"
+    },
+    {
+      "path": "apps/api/app/api/routes/server_task_packages.py",
+      "bytes": 4720,
+      "sha256": "20cd81ff315d54bee73fa76c4882e06352df946fff657a5892db237de47bdf6c"
+    },
+    {
+      "path": "apps/api/app/api/routes/system.py",
+      "bytes": 1381,
+      "sha256": "e91c66bc1ff43220187bb315f1dfcc1c787c25d4b7b552b888006aa215889189"
+    },
+    {
+      "path": "apps/api/app/api/routes/writing.py",
+      "bytes": 8806,
+      "sha256": "d608b4d78af11afc8a787c2db35acafecbbc1c665fcc052f73f2037f648bc700"
+    },
+    {
+      "path": "apps/api/app/api/routes/zotero_sync.py",
+      "bytes": 10890,
+      "sha256": "774238668a93be940b8e9f5bf3870b140f027e81c888c334407b1c8e9a842eba"
+    },
+    {
+      "path": "apps/api/app/codex_worker.py",
+      "bytes": 2057,
+      "sha256": "7475b1f0da6911e4994295a922658991663d60e457ed96a76cb18345ae055578"
+    },
+    {
+      "path": "apps/api/app/core/__init__.py",
+      "bytes": 42,
+      "sha256": "6be44e83f8c8d5ee1e52324e69083d6b8b0a62e43b452868c06f5326807a99fe"
+    },
+    {
+      "path": "apps/api/app/core/config.py",
+      "bytes": 4189,
+      "sha256": "73b867746f8758faba6ef7292e99c530e4dd134a4b7ed91c47ed10173c6ae6cb"
+    },
+    {
+      "path": "apps/api/app/core/security.py",
+      "bytes": 997,
+      "sha256": "78a47d1c6f19a5061a5e0e51a5645ddc8af48420280402b83af7a6f4513c0cc2"
+    },
+    {
+      "path": "apps/api/app/db.py",
+      "bytes": 488,
+      "sha256": "ecff3f99933346956189634fe60aff69f50486a45c199078a34b0b403f9cfce8"
+    },
+    {
+      "path": "apps/api/app/doctor.py",
+      "bytes": 3253,
+      "sha256": "983eab846b83251fae5b2cb55a9b59edf11f32cc8ce8bd8d5641a1b8ce01d852"
+    },
+    {
+      "path": "apps/api/app/domain/__init__.py",
+      "bytes": 45,
+      "sha256": "af44c30ed6a11809d5a81235db96dc72ea40fa5b7aac0aebcf0ddec4bc87b5ea"
+    },
+    {
+      "path": "apps/api/app/domain/ai.py",
+      "bytes": 4414,
+      "sha256": "c1f52fbbf0b53c1a77bb37065e81c0fb62f0e8d29d6430c9284fb041d46d2738"
+    },
+    {
+      "path": "apps/api/app/domain/analytical_contract.py",
+      "bytes": 6817,
+      "sha256": "af616fc9e70014cb72982689394aebd4e8aa1a293532f136f552b8842463002c"
+    },
+    {
+      "path": "apps/api/app/domain/analytical_notes.py",
+      "bytes": 2428,
+      "sha256": "8cb58faf1a7dabfa82a2b18ea6d44daf435f379be60cbca4149d8ccf13824c9b"
+    },
+    {
+      "path": "apps/api/app/domain/archive_catalog.py",
+      "bytes": 693,
+      "sha256": "7a56d323c5abd088728fc866122d8fa6cb272e92700220d1c13abf62b2d6deaa"
+    },
+    {
+      "path": "apps/api/app/domain/archive_execution.py",
+      "bytes": 1361,
+      "sha256": "6bdeca3643565e507faec310574449fac677df1c745fa34a6eb867cf2423fea2"
+    },
+    {
+      "path": "apps/api/app/domain/baseline_runs.py",
+      "bytes": 14603,
+      "sha256": "d3354f995b400f6bcd42520f3a0abb850affa3e86a31b55ee72d787ef1cfbc66"
+    },
+    {
+      "path": "apps/api/app/domain/baselines.py",
+      "bytes": 2321,
+      "sha256": "20a09afa8dadf9c8a5d2e9b5387f61fc1ca5b2f3913c545e8880d45f39996182"
+    },
+    {
+      "path": "apps/api/app/domain/bibliography.py",
+      "bytes": 844,
+      "sha256": "06fb35b1638c669037f3360a88924866de9c815503eb72fc14ef562293fadd16"
+    },
+    {
+      "path": "apps/api/app/domain/code_changes.py",
+      "bytes": 1161,
+      "sha256": "df519b536aa5463363016d94d82186f2d0940ad0b1b815c1912f52f83c88185b"
+    },
+    {
+      "path": "apps/api/app/domain/codex.py",
+      "bytes": 1637,
+      "sha256": "4c80ce67de9b955700d8d6947d063463fbb8166e1016203002d8d14f18625827"
+    },
+    {
+      "path": "apps/api/app/domain/evidence_bundles.py",
+      "bytes": 6530,
+      "sha256": "70a348662af5cc6fe20f5a8cd39faa6fa5ba771e94cee195300a06216d11985f"
+    },
+    {
+      "path": "apps/api/app/domain/experiments.py",
+      "bytes": 13477,
+      "sha256": "2859f8114ee5abebd506eac3f0eb8d6c303dbe9a6744a81999c9fdc4658f2656"
+    },
+    {
+      "path": "apps/api/app/domain/generated_file_deletion.py",
+      "bytes": 1131,
+      "sha256": "87ea45509e5a80b3c9319a7dab6f3d161c444bb9d1f6704eaff1c3320c5278c6"
+    },
+    {
+      "path": "apps/api/app/domain/github_archive.py",
+      "bytes": 1981,
+      "sha256": "5a2e479d7e739c20df1ba6c4d8731a246de270b9fe13aefa4b37c0322daa4235"
+    },
+    {
+      "path": "apps/api/app/domain/idea_handoff.py",
+      "bytes": 3297,
+      "sha256": "0fa4d622bb4fc7931f62823663fdc61532d75d1c544c21821ebbd7de92c01980"
+    },
+    {
+      "path": "apps/api/app/domain/latex_compilation.py",
+      "bytes": 4011,
+      "sha256": "47116e0a9a7360ddb4f022b91c0d73ac233c3db4100c27d53a1c0290c451920e"
+    },
+    {
+      "path": "apps/api/app/domain/literature.py",
+      "bytes": 1712,
+      "sha256": "59f554e7b60bd72737e4d3cd2e4edd25d52188884294fce835267fc57d3c4375"
+    },
+    {
+      "path": "apps/api/app/domain/literature_discovery.py",
+      "bytes": 564,
+      "sha256": "77dec2e0991ddf7cc15550705a8c00dcaab8f152c9fa4771e9e7368d6ab9849a"
+    },
+    {
+      "path": "apps/api/app/domain/literature_identity.py",
+      "bytes": 6306,
+      "sha256": "9a418a718dfd3ac4cb5d861189294ce07486bee19098e22d34dc0463cdba7495"
+    },
+    {
+      "path": "apps/api/app/domain/literature_recommendations.py",
+      "bytes": 2943,
+      "sha256": "3deaddefff9daa2c3310dacb7fff8ed85486b03cdecd0564e45f840f0792c6f7"
+    },
+    {
+      "path": "apps/api/app/domain/manuscript_templates.py",
+      "bytes": 1217,
+      "sha256": "7e6f1013f76de51fe99e6c446104abed16ba4458f20f45187add5d5135774c20"
+    },
+    {
+      "path": "apps/api/app/domain/manuscripts.py",
+      "bytes": 1470,
+      "sha256": "6738d5ca3ac0c37d30b8e542e30c4225dfbe28ea5fbd96a9b8c2fc793e825c4e"
+    },
+    {
+      "path": "apps/api/app/domain/note_output.py",
+      "bytes": 645,
+      "sha256": "9e95b174aed7a3a16a392bc01cd530ad22364f6186ec2a22ed82e54e0a403600"
+    },
+    {
+      "path": "apps/api/app/domain/paper_parser.py",
+      "bytes": 1022,
+      "sha256": "2c2c57d12cb521356fb13b21b30123c6ea0a50e12537b6415e336b0d6e768ff0"
+    },
+    {
+      "path": "apps/api/app/domain/paper_reproduction.py",
+      "bytes": 1045,
+      "sha256": "6c30e7325b8ec38fc069ff06c80450c08a586aafa57e0ea2ff93fd569ca827ed"
+    },
+    {
+      "path": "apps/api/app/domain/pdf_quotes.py",
+      "bytes": 670,
+      "sha256": "26553d13ed06fd7ff5fca9d2c914b900e4528029aa3d547e12d3d85d85acbab3"
+    },
+    {
+      "path": "apps/api/app/domain/pdf_reading.py",
+      "bytes": 844,
+      "sha256": "a2ca1a84c6957d19a825239a2a347db18dc83537d74c258c48ba9ba7899c54c0"
+    },
+    {
+      "path": "apps/api/app/domain/project_archive.py",
+      "bytes": 1330,
+      "sha256": "e4385527d1bcdb4fb7bd642fc8726d7436dc8bd4cab06216b9399656cefd0ff3"
+    },
+    {
+      "path": "apps/api/app/domain/project_sources.py",
+      "bytes": 2208,
+      "sha256": "3ce9d91ccb81d93bae626ab4ad26aef873cac45e9f7e1eadac61400255c3106b"
+    },
+    {
+      "path": "apps/api/app/domain/provisioning.py",
+      "bytes": 1549,
+      "sha256": "1588177697fe60fc84832c8d9927a892af6228f17471163b6bb1a2cb25e3e280"
+    },
+    {
+      "path": "apps/api/app/domain/reference_manager.py",
+      "bytes": 2830,
+      "sha256": "6c32b219f24e168aae5e8400f477be371f5639afb4a9286c9ffdd9dae05aef36"
+    },
+    {
+      "path": "apps/api/app/domain/repositories.py",
+      "bytes": 1552,
+      "sha256": "ca2ed14e86aee4f4cb8f52e757f06cce7d2262eef39cf026d16bb8c8edf072f1"
+    },
+    {
+      "path": "apps/api/app/domain/repository_assets.py",
+      "bytes": 1556,
+      "sha256": "90f38a79df0c7795d90c772d198137763b3f5f597b1e2c0d15f34f303df884b6"
+    },
+    {
+      "path": "apps/api/app/domain/repository_identity.py",
+      "bytes": 5011,
+      "sha256": "3e50116a23cbb990afa582bb196bb2ad9932d10ee42a6db73013e33e473cf006"
+    },
+    {
+      "path": "apps/api/app/domain/repository_imports.py",
+      "bytes": 4387,
+      "sha256": "8f40d42a4704cd1511c9c1013020302a6321dd625d9ab4aa5c0e9e9502d2689b"
+    },
+    {
+      "path": "apps/api/app/domain/research_execution_policy.py",
+      "bytes": 1726,
+      "sha256": "527c6b4c1240ae1ebdbc3a07658e0c25c6265edc5da0bbd3e259eb2e05db77cd"
+    },
+    {
+      "path": "apps/api/app/domain/research_planning.py",
+      "bytes": 8438,
+      "sha256": "7384a280677a489dddc71f555baea6ff275834d201b367f43a96026a0de64194"
+    },
+    {
+      "path": "apps/api/app/domain/result_artifact_probe.py",
+      "bytes": 565,
+      "sha256": "6dbd8133e2263ccc73d15354adf20ef6665e7cdb7d523a7fb6a42656c8c0bc15"
+    },
+    {
+      "path": "apps/api/app/domain/server_packages.py",
+      "bytes": 1203,
+      "sha256": "0c83a44b7246f576b5bb708c0c5b2ca121c6687ca85a1bf9cd1858d20663d87f"
+    },
+    {
+      "path": "apps/api/app/domain/server_results.py",
+      "bytes": 1209,
+      "sha256": "f2b346b9dd85cf413e474086be83d57565e568eefbd7cd4915cb5ae6f1069dbd"
+    },
+    {
+      "path": "apps/api/app/domain/skill_discovery.py",
+      "bytes": 3375,
+      "sha256": "790b1a20b7c561cea221d64ae61dfd13a8a76f80411a67899dc7e8faffb3c25e"
+    },
+    {
+      "path": "apps/api/app/domain/storage.py",
+      "bytes": 1358,
+      "sha256": "aaafcf103a816251978e06661184239f0183702a56fe12135c889c34203b4702"
+    },
+    {
+      "path": "apps/api/app/domain/task_results.py",
+      "bytes": 1814,
+      "sha256": "acb5d39f8b0e8145ab93deb5cf43829ac8e45576aa562596bcd8918a948df57e"
+    },
+    {
+      "path": "apps/api/app/domain/venue_cache.py",
+      "bytes": 150,
+      "sha256": "ea9ae28c6bf26b362a3f2672a30b5784d31999e73095269786e17b5ba7b41100"
+    },
+    {
+      "path": "apps/api/app/domain/venue_fields.py",
+      "bytes": 153,
+      "sha256": "df6bfebb50dd02745a03c235185253497f9d87151b971d5e0939498262ad2f80"
+    },
+    {
+      "path": "apps/api/app/domain/venue_ratings.py",
+      "bytes": 319,
+      "sha256": "1a4656dba1aba7ba320e8de94769ff63f4893e560e047d5d07c10a4f50029b09"
+    },
+    {
+      "path": "apps/api/app/domain/writing_skills.py",
+      "bytes": 1094,
+      "sha256": "b004146784741fb5c9712c00cd0e25915a1dc1b183d82fd39df073e7d2c98655"
+    },
+    {
+      "path": "apps/api/app/errors.py",
+      "bytes": 398,
+      "sha256": "13f3206272b2a1308fcb76f15c54c84cfce2f88fba261cfc9ea7515c0de50043"
+    },
+    {
+      "path": "apps/api/app/main.py",
+      "bytes": 6355,
+      "sha256": "abaadd90fad4647579880bee9f8053bd19428e786e407d28cc8b67fb62407aad"
+    },
+    {
+      "path": "apps/api/app/models.py",
+      "bytes": 72661,
+      "sha256": "9206b28c0d5bdad02a4e93a66f063062c4c47397f1779186723ec2b14f149522"
+    },
+    {
+      "path": "apps/api/app/models_analytical.py",
+      "bytes": 6854,
+      "sha256": "377bf8132b7bf63c36e56d0b1e09dcc1dcaa23a28b18a1d232be96f1d96ecc6f"
+    },
+    {
+      "path": "apps/api/app/models_archive_jobs.py",
+      "bytes": 5852,
+      "sha256": "373cdff6efb114a7318bdd532e786886a20c0ba344346a90e9c614efc95635fb"
+    },
+    {
+      "path": "apps/api/app/models_baseline_runs.py",
+      "bytes": 19517,
+      "sha256": "a564849282e9595cd773c34ccc53dff7691f8e1a7f1ce9510f9ff334516cdc5b"
+    },
+    {
+      "path": "apps/api/app/models_baselines.py",
+      "bytes": 14675,
+      "sha256": "9b40028bcfac3c63bd9860d60fe66ab8127ba9fbf6849f39b2e9996fbcc9ced6"
+    },
+    {
+      "path": "apps/api/app/models_claims.py",
+      "bytes": 11911,
+      "sha256": "3194f1369b5b2b9dc53c16c19c4e0d8013d8660ba72aa2c9b0675f14f39790a6"
+    },
+    {
+      "path": "apps/api/app/models_code_changes.py",
+      "bytes": 8799,
+      "sha256": "d25a8bbec064f20b0aa82be7a05b3a701df4f93f66472b4e08f0adbf61dfd67e"
+    },
+    {
+      "path": "apps/api/app/models_evidence_bundles.py",
+      "bytes": 6284,
+      "sha256": "cab8144cde2db8ea135441f78177c1934fb4f0a0b4667fc0a140a0f9c650c4c8"
+    },
+    {
+      "path": "apps/api/app/models_experiments.py",
+      "bytes": 18532,
+      "sha256": "5b9fa664da5f21c24768af3c6abc708a99e16a70eb9620095d8229a29a7e2872"
+    },
+    {
+      "path": "apps/api/app/models_ideas.py",
+      "bytes": 11174,
+      "sha256": "9e7bbcbbf05cab41f9e9988b6d4092d3b0d35458f30cec1a6cb847401a65585c"
+    },
+    {
+      "path": "apps/api/app/models_literature_recommendations.py",
+      "bytes": 10337,
+      "sha256": "ac88003af4ff76eeff3f5bb0bf3c5aaa90515d13028915e7c4e8d3e6a855c7b7"
+    },
+    {
+      "path": "apps/api/app/models_manuscript_builds.py",
+      "bytes": 11903,
+      "sha256": "f4776aad604531f3a39be3faba399e337f11c6308a93c98e77c7106b1ca018ae"
+    },
+    {
+      "path": "apps/api/app/models_note_deletion.py",
+      "bytes": 7993,
+      "sha256": "c806873de3b0a1cb18f2ee91b18ef899aab700998bee9ee2f5085a814ae643c9"
+    },
+    {
+      "path": "apps/api/app/models_note_projects.py",
+      "bytes": 1982,
+      "sha256": "aff1e7f9f0aa91f94bf047813d390eb5843a6a010d0d417811d4a962830f1dcf"
+    },
+    {
+      "path": "apps/api/app/models_note_trash.py",
+      "bytes": 5168,
+      "sha256": "8d59c8d9046d9b23f5713c400d23fcc37bea22c451d41ce3cd59036f5b864d06"
+    },
+    {
+      "path": "apps/api/app/models_pdf_annotations.py",
+      "bytes": 4611,
+      "sha256": "66035e8d5de4c60cd9749ebb2a9a587cbd21b482090ae96c20681af82ff1021e"
+    },
+    {
+      "path": "apps/api/app/models_planning_brief_proposals.py",
+      "bytes": 6207,
+      "sha256": "f83efcc043b54ba9a5fc5ffd59ec18655fd291aaa62b81e4aa40c40c6710fb32"
+    },
+    {
+      "path": "apps/api/app/models_project_archives.py",
+      "bytes": 6994,
+      "sha256": "c244c6385ef87de923a5cf7cd55eca668905f3a14724503c6925d061e1d58e3a"
+    },
+    {
+      "path": "apps/api/app/models_project_sources.py",
+      "bytes": 14725,
+      "sha256": "0bfc468980a08b50a38b906e834893505393681d11e764cb6e23c2621d006e74"
+    },
+    {
+      "path": "apps/api/app/models_provisioning.py",
+      "bytes": 7608,
+      "sha256": "71f66c2f4e7e85bd2a4faaacb3b4fc08cd9d208183b948a0831a8c69b62a0b7a"
+    },
+    {
+      "path": "apps/api/app/models_publications.py",
+      "bytes": 11196,
+      "sha256": "4df23a7e07ac28fe0c43fd2e59300bb89ad6aa18a964cbbb0568fe9fa2d0b85b"
+    },
+    {
+      "path": "apps/api/app/models_reading_bindings.py",
+      "bytes": 1676,
+      "sha256": "67536bb0d88c50f0b5225ea08f757d6af1e4ddf43e5ff485fb0a8e8defc94cbc"
+    },
+    {
+      "path": "apps/api/app/models_repositories.py",
+      "bytes": 6926,
+      "sha256": "4b361db0e96250a36797b08520b22f6e03aeb6b89356b67ed404250deaf76a0b"
+    },
+    {
+      "path": "apps/api/app/models_repository_assets.py",
+      "bytes": 13122,
+      "sha256": "96b63d3f5822a976bad1d01c63aaeccec50e6526e5d1106d248cc34c5e0ad5c1"
+    },
+    {
+      "path": "apps/api/app/models_reproduction_sources.py",
+      "bytes": 6010,
+      "sha256": "ae9b93a121c94a1e06999645f7e3d07896a4699b6b461bec9a992a7c31d7dad7"
+    },
+    {
+      "path": "apps/api/app/models_research_briefs.py",
+      "bytes": 11431,
+      "sha256": "cd191937c4905d2d31f2107194dea46caa22c086b7ecc02207b1c6c84d61d506"
+    },
+    {
+      "path": "apps/api/app/models_research_planning.py",
+      "bytes": 16382,
+      "sha256": "b0700747b04e594b94365c523114a72795747c4f33cdfe639e7e7c7f9f45006e"
+    },
+    {
+      "path": "apps/api/app/models_server_results.py",
+      "bytes": 10995,
+      "sha256": "588bdb9ffa8bb0e452fc42bac06b1363a261a2d488fac83a9799c5c484f3c3f6"
+    },
+    {
+      "path": "apps/api/app/models_server_task_packages.py",
+      "bytes": 10567,
+      "sha256": "6e13999aa432a887f19f81fc38348c58cf58b4beeb6b9b4eb7c337aa18c58c87"
+    },
+    {
+      "path": "apps/api/app/models_venue_ratings.py",
+      "bytes": 3022,
+      "sha256": "731ba6e8cdd8513180400e9eaa84eea8fa5550873439723cf5dfa4f43d7fcb32"
+    },
+    {
+      "path": "apps/api/app/models_writing.py",
+      "bytes": 6520,
+      "sha256": "de65221c9aef8924284aacbaf10ab50778c94c1aa364bb0a2871b033a7edb916"
+    },
+    {
+      "path": "apps/api/app/providers/__init__.py",
+      "bytes": 32,
+      "sha256": "aecdcda30ea7652e49c679cb88f024f8a3ec7b659a4bddba11bcbc51aa535628"
+    },
+    {
+      "path": "apps/api/app/providers/ai/__init__.py",
+      "bytes": 28,
+      "sha256": "a273a334497ddd662b7d69e35197fd3b83cc0fdabf4cdc94f9b77af7597f735d"
+    },
+    {
+      "path": "apps/api/app/providers/ai/analysis_contract.py",
+      "bytes": 4392,
+      "sha256": "fa8f7d65bf86d6001f35ed36f2a4383dc618355f5cb2f6f9ecffb0095d7895ba"
+    },
+    {
+      "path": "apps/api/app/providers/ai/analytical_contract.py",
+      "bytes": 876,
+      "sha256": "93e1fadd0cb8a81ff4db4e1334508fddeebf46fd8129cfb79d4037c67752d596"
+    },
+    {
+      "path": "apps/api/app/providers/ai/codex_paper.py",
+      "bytes": 22373,
+      "sha256": "557d833a8f7f3976caf6579fd6aef2c779e242dc180bf62af04a2440cbfd822e"
+    },
+    {
+      "path": "apps/api/app/providers/ai/codex_runtime.py",
+      "bytes": 31074,
+      "sha256": "b8f6b43eae91c692cbe05246a99b47d939d9f206f72cf5b2eb9247382aab484e"
+    },
+    {
+      "path": "apps/api/app/providers/ai/openai_responses.py",
+      "bytes": 8948,
+      "sha256": "88b683cb418fe254861e93ddb7a97e79c56a74b4d32558acaa564d979d09ae39"
+    },
+    {
+      "path": "apps/api/app/providers/analytical_skill.py",
+      "bytes": 7382,
+      "sha256": "eea8b34895b8bf482219d2dc28a18c7d1b27edb1f6b61ab397ad853b9d3409d0"
+    },
+    {
+      "path": "apps/api/app/providers/baseline_runs.py",
+      "bytes": 77934,
+      "sha256": "d78af228d5dc959608d8ef749d2ed1fb0615235f0a8e5b62d23f0a79c15b5b76"
+    },
+    {
+      "path": "apps/api/app/providers/baselines.py",
+      "bytes": 26370,
+      "sha256": "3c9e2b61adfd202347a6fcd6e82f8803fd158376114a3073fbc736df3f259196"
+    },
+    {
+      "path": "apps/api/app/providers/code_changes/__init__.py",
+      "bytes": 62,
+      "sha256": "d10a41dc1e101cc16f9dacf94c80fc4ec79157ecd442cf4428e3a122469c3be2"
+    },
+    {
+      "path": "apps/api/app/providers/code_changes/local.py",
+      "bytes": 26710,
+      "sha256": "03cdedd50b2e5336646d5db99bbfb100c8349b228cd9b8fb6d6212fe28dcd172"
+    },
+    {
+      "path": "apps/api/app/providers/codex/__init__.py",
+      "bytes": 31,
+      "sha256": "ec672da104eebc54029895f1c478f2b2dfe4da20265c40adc8613a8296e162e4"
+    },
+    {
+      "path": "apps/api/app/providers/codex/openai_codex_sdk.py",
+      "bytes": 9273,
+      "sha256": "d7af42c1b8a89049a260a727754b538d8f53e17d13924dc54a862e9c7a89d1ed"
+    },
+    {
+      "path": "apps/api/app/providers/evidence_bundles.py",
+      "bytes": 3185,
+      "sha256": "7eaebd42b9b14911e211c50779e5a06de44d098cf008f098f63603d2ebd7c356"
+    },
+    {
+      "path": "apps/api/app/providers/generated_file_deletion.py",
+      "bytes": 10334,
+      "sha256": "e3e1c97020cbdebab06e68fbc5b15085d86e1b0e47198611955dd41bc7d1dcee"
+    },
+    {
+      "path": "apps/api/app/providers/latex/__init__.py",
+      "bytes": 39,
+      "sha256": "1101f55e5b55cb7d5683caa3bc6d8fe829f06c5032742f1fbca3c0029a205ad3"
+    },
+    {
+      "path": "apps/api/app/providers/latex/docker.py",
+      "bytes": 15227,
+      "sha256": "9b735e257dbdfde609b55bb686ab063699a6420c6a57d5c23f8639db0569836d"
+    },
+    {
+      "path": "apps/api/app/providers/literature/__init__.py",
+      "bytes": 34,
+      "sha256": "94f8278a4cec681308446f4af7b1e2665999612c897c47a011c6198db3a9cd06"
+    },
+    {
+      "path": "apps/api/app/providers/literature/arxiv.py",
+      "bytes": 7923,
+      "sha256": "c9f440d767ef2565b6e4a8da5fe3dbd322b92c42f8e0ed0e7b3a8217aecda2ed"
+    },
+    {
+      "path": "apps/api/app/providers/literature/arxiv_rate_limit.py",
+      "bytes": 3196,
+      "sha256": "b9e0b4add5cd410eaf8611db77ae858da31ab5d1eb4af5b452a24457012adfc1"
+    },
+    {
+      "path": "apps/api/app/providers/literature/bibliography_file.py",
+      "bytes": 10777,
+      "sha256": "b7080fe252ec2055ddfda9c5146ade6f0433e90d9aeff76b1c2ff99f478832ae"
+    },
+    {
+      "path": "apps/api/app/providers/literature/crossref.py",
+      "bytes": 13535,
+      "sha256": "c03f80b4e8df91e455b4f85bca86366987f651c1a53bc55b8ec4e8238a950456"
+    },
+    {
+      "path": "apps/api/app/providers/literature/discovery_links.py",
+      "bytes": 6912,
+      "sha256": "beb1e3b301e1268ed3ac3d5115d00bfaac8e362927f273a9ffcdfc77b2357df0"
+    },
+    {
+      "path": "apps/api/app/providers/manuscript_layouts.py",
+      "bytes": 7603,
+      "sha256": "154b91e1ed74e8c19a16aba07066afed21e160cab52e28566974ed21a4ec571c"
+    },
+    {
+      "path": "apps/api/app/providers/manuscript_tables.py",
+      "bytes": 4287,
+      "sha256": "a204f4036e5e71caec9d3985005bba825e2ae800388bf09552f075a0a13e5084"
+    },
+    {
+      "path": "apps/api/app/providers/manuscript_templates.py",
+      "bytes": 7559,
+      "sha256": "a8329ad03e4d630e7f0ef4a3787b35ccae6507cb96f2c36e18597dec351ec82a"
+    },
+    {
+      "path": "apps/api/app/providers/manuscripts.py",
+      "bytes": 23076,
+      "sha256": "c448f71a633a7339e3818ca19a0e5c5cb36cbe1a7d9e45b2d8852962cd3ec21a"
+    },
+    {
+      "path": "apps/api/app/providers/note_output.py",
+      "bytes": 6079,
+      "sha256": "c27a02fec0a23bad35063d2d7902c8c1cf3e66929054c54f7bc9974aa2e27ab2"
+    },
+    {
+      "path": "apps/api/app/providers/paper_parser/__init__.py",
+      "bytes": 27,
+      "sha256": "384a5e7fd0f32f867d7a042a483393b87e0424b6e484b7c1587fa1f1ea9208e3"
+    },
+    {
+      "path": "apps/api/app/providers/paper_parser/headings.py",
+      "bytes": 8506,
+      "sha256": "1019e39f7904cbd3e6cc4a595df895d9f756ae8aea7dc70bd49af9f0a95647fa"
+    },
+    {
+      "path": "apps/api/app/providers/paper_parser/layout.py",
+      "bytes": 8319,
+      "sha256": "8cce4dd3b1dfe3cec0f809ce80fec78f4cc0948710e2def3b985271ee1f29f9a"
+    },
+    {
+      "path": "apps/api/app/providers/paper_parser/pdfplumber_parser.py",
+      "bytes": 12893,
+      "sha256": "1bc9d0cfc66e753b4739f249bb766ec0d50bdf755aa6839c87fd88e2fb927ffd"
+    },
+    {
+      "path": "apps/api/app/providers/pdf_annotations/__init__.py",
+      "bytes": 78,
+      "sha256": "5f74008b9f6172bddcff8a2dfa6a3c4dada77865c557ef285b4a988c04270c6c"
+    },
+    {
+      "path": "apps/api/app/providers/pdf_annotations/base.py",
+      "bytes": 267,
+      "sha256": "f40b47d20a6a35c5aea335eb62feb41ab1dd51c5c1e9296258f8f726304a0e7a"
+    },
+    {
+      "path": "apps/api/app/providers/pdf_annotations/pypdf_adapter.py",
+      "bytes": 8096,
+      "sha256": "149ba436e236eb0b8d8818911635e341596d60b1733b6953b0dd6f25c6d6b0ae"
+    },
+    {
+      "path": "apps/api/app/providers/pdf_quotes.py",
+      "bytes": 2578,
+      "sha256": "0ab5a77294a29285da0b6f1fbce5d53789e4dfe5c75633d56097dfde8c7cf7ed"
+    },
+    {
+      "path": "apps/api/app/providers/pdf_visual.py",
+      "bytes": 3463,
+      "sha256": "85671e34e0bc03db740ee4e14db7940af7781577371a722f7673d70daea4121e"
+    },
+    {
+      "path": "apps/api/app/providers/planning_skills.py",
+      "bytes": 5355,
+      "sha256": "71eeb7746666760b314433eabd02093436bb6d826d2008bbcc7db1e81eba83cf"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/__init__.py",
+      "bytes": 82,
+      "sha256": "64b3438e9039f8b283c975b4c15cebb574be7670e8e9c35a8355212736f37f86"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/catalog.py",
+      "bytes": 15363,
+      "sha256": "ba8e672eced4fb83d0793cfb0a3b592369978ce1788f4c956e560a44925e99e6"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/credentials.py",
+      "bytes": 1616,
+      "sha256": "b5f36accb7c50ab203a9f6425c07e3c67fb1f48f1cc817feb4495888f8fbe8a6"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/execution.py",
+      "bytes": 14007,
+      "sha256": "57f20e14581a1c5ddcfe7884ad6f70bdf6bf1b2e19edc5e7345e94d8e7235fe6"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/git_transport.py",
+      "bytes": 5010,
+      "sha256": "f3dd80f72f5cdd8469c35ca45b8fb8cb1405eab2c9213d9070dbd1cf70362f1d"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/github.py",
+      "bytes": 13658,
+      "sha256": "18cd0bedf80ec5d6567103436a54ae2e52d18223442138d5cfed1fa5b4733113"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/local_git.py",
+      "bytes": 20961,
+      "sha256": "4bc8eea1b8cb8ee02b1d34325baa377c2764e7f4d2f8071a35e59af8316a8df5"
+    },
+    {
+      "path": "apps/api/app/providers/project_archives/provisioning.py",
+      "bytes": 22077,
+      "sha256": "0436cc5aa9e79105b8b6dea3ea0e5972601d8f328c7a5dc6bd3d01dd6be475da"
+    },
+    {
+      "path": "apps/api/app/providers/project_sources.py",
+      "bytes": 22752,
+      "sha256": "15da9d7ea636a602bc89ddd1ccb94f99cf5dcb5f6fc4ca366e0124719fb3915f"
+    },
+    {
+      "path": "apps/api/app/providers/reading_skill.py",
+      "bytes": 2935,
+      "sha256": "51372bd1025cca039aa12bc0a655a11756b160e65dda394c1101882be3b34d40"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/__init__.py",
+      "bytes": 34,
+      "sha256": "b37330f8304d5941a28484995b812819bb0f72558d8b63afbfb9375e3d4534c9"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/catalog.py",
+      "bytes": 783,
+      "sha256": "1ee47f28595b84b85036ca2e6430791afe25733071daac63775f8fa1198460f5"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/venue_fields_registry.py",
+      "bytes": 410,
+      "sha256": "690d23573ea4b1ed7dd7ba889886555f495e20b1443aa801a04f2f858c44a43f"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/zotero_local.py",
+      "bytes": 13682,
+      "sha256": "fb2e35d4ed18b85a15cbf9706b12ff8c1ad1cf3000f410791bb926346628f5ee"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/zotero_style_cache.py",
+      "bytes": 4877,
+      "sha256": "6ac9bdbce507430ea98af94eea30ddd4454171d5dcd1bfde376d033b09b20d23"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/zotero_venue_fields.py",
+      "bytes": 14064,
+      "sha256": "86227a6d83f402a09084a15feeb1744cee85884b3d79a69b8ebf5c46e81014b6"
+    },
+    {
+      "path": "apps/api/app/providers/reference_manager/zotero_web.py",
+      "bytes": 15672,
+      "sha256": "04e80dd52ed99bbf70dc091d29bbdbb80fa1311b1bd288fd58884b58f9df87cf"
+    },
+    {
+      "path": "apps/api/app/providers/registry.py",
+      "bytes": 29217,
+      "sha256": "8667e44e1b2d8ed2977199fb63f806c3189d5b17f2a1244b59bb403afa8d6982"
+    },
+    {
+      "path": "apps/api/app/providers/repositories/__init__.py",
+      "bytes": 64,
+      "sha256": "f414630a2c407d6025b1fbf07053b0de921956a5afd43d90c7b4a88b4bceab97"
+    },
+    {
+      "path": "apps/api/app/providers/repositories/github.py",
+      "bytes": 5874,
+      "sha256": "5804c03afd8af33b0a6899e085e40c85ef9ae658a884b5f20698e48fcfc2d958"
+    },
+    {
+      "path": "apps/api/app/providers/repositories/http.py",
+      "bytes": 9108,
+      "sha256": "4b0b1b6ecaad716d6c605eb696c8f518785b42448c629a514383ef5d31a9ced8"
+    },
+    {
+      "path": "apps/api/app/providers/repositories/huggingface.py",
+      "bytes": 6359,
+      "sha256": "f57878b195f2d8811b8074927d0328a870e9749175b71b1b441260b36c1994b7"
+    },
+    {
+      "path": "apps/api/app/providers/repository_assets.py",
+      "bytes": 24783,
+      "sha256": "67dfb24be80e3d6bef7ec59544442f7ccd3266b541a0c70564cfc37bd2bc0556"
+    },
+    {
+      "path": "apps/api/app/providers/research_planning.py",
+      "bytes": 10312,
+      "sha256": "12c0ef4d1f47d26a7b51697db7a6f38323fbc276b6f803985704bd55b1884de4"
+    },
+    {
+      "path": "apps/api/app/providers/result_artifact_probe.py",
+      "bytes": 5450,
+      "sha256": "0072a7f8d36b892719e9d88f2d3ac6e24087ec43a676d8a7ddd754f7cc489209"
+    },
+    {
+      "path": "apps/api/app/providers/server_packages/__init__.py",
+      "bytes": 77,
+      "sha256": "29502eefbc79159010e9ddde2643da355090f852688631d111464d468a34bf61"
+    },
+    {
+      "path": "apps/api/app/providers/server_packages/markdown_zip.py",
+      "bytes": 18557,
+      "sha256": "c5e7f31a3e88db6c3cdecd247caad7b171c98a8c59436c1e1d223ff93c10d838"
+    },
+    {
+      "path": "apps/api/app/providers/server_results/__init__.py",
+      "bytes": 65,
+      "sha256": "367e48928f1dd74102bb97e8f302b0df2cc537c63f577ee4028af34ef6860ab2"
+    },
+    {
+      "path": "apps/api/app/providers/server_results/hmac_receipt.py",
+      "bytes": 2143,
+      "sha256": "d6604debc969ce5ab5a631ceb18c3a31b78c6736ce819e8f06e5979b260ffd8c"
+    },
+    {
+      "path": "apps/api/app/providers/server_results/zip_json.py",
+      "bytes": 8229,
+      "sha256": "f9d16bbebad78ea162d3e678f76c735df76c9883673f7162575464805d9a2599"
+    },
+    {
+      "path": "apps/api/app/providers/skills/__init__.py",
+      "bytes": 78,
+      "sha256": "8f31642148c25b6e5f6538963b0b9f3f137afcd94d32284998643f453d60a244"
+    },
+    {
+      "path": "apps/api/app/providers/skills/codex_discovery.py",
+      "bytes": 11699,
+      "sha256": "f0a313744bffcc12db711186353a0cf4b2180fa1198bcebe2593b047f0df651a"
+    },
+    {
+      "path": "apps/api/app/providers/storage/__init__.py",
+      "bytes": 40,
+      "sha256": "9850296efab6cd90818ce224965b36c5934780ea015e2f576c75738fce9349f8"
+    },
+    {
+      "path": "apps/api/app/providers/storage/local.py",
+      "bytes": 7903,
+      "sha256": "c523367e499ef87768c73edffdf20693cbf77d008f5709ed2ada0e3b9bc243e7"
+    },
+    {
+      "path": "apps/api/app/providers/venue_ratings/__init__.py",
+      "bytes": 29,
+      "sha256": "f218d364202d579405063d29cf155a1704929699fd9b954a307685e8360c0eb4"
+    },
+    {
+      "path": "apps/api/app/providers/venue_ratings/catalog.py",
+      "bytes": 9913,
+      "sha256": "5302874f3c3df5791a20d2666d979f60b5b355d5e6540ebd401fb93420306ed8"
+    },
+    {
+      "path": "apps/api/app/providers/venue_ratings/registry.py",
+      "bytes": 303,
+      "sha256": "1a3df8a0c40727309e885bab776d6483d8b7c9304343f33a768da76b4b9c4bb4"
+    },
+    {
+      "path": "apps/api/app/providers/writing_skills.py",
+      "bytes": 11696,
+      "sha256": "516d495a16750479bbdd3dcc374288872e61e8010cf1885c389ec7b68582eca5"
+    },
+    {
+      "path": "apps/api/app/schemas.py",
+      "bytes": 11376,
+      "sha256": "4315bf9acf404ef02d557d8e943ff960d018fd34327e15cefa3f977a99c7c8c2"
+    },
+    {
+      "path": "apps/api/app/schemas_archive_jobs.py",
+      "bytes": 1933,
+      "sha256": "d217913700fc8a0cdf6c9e403b50fdfc304fd8c9f24a1aceb9ed1c68dfec1390"
+    },
+    {
+      "path": "apps/api/app/schemas_baseline_runs.py",
+      "bytes": 6024,
+      "sha256": "7cbe51e6c4b63c6e2453e7bc59627eebe3697fc7c0ce9c7c37692cf5612bbf4c"
+    },
+    {
+      "path": "apps/api/app/schemas_baselines.py",
+      "bytes": 6601,
+      "sha256": "117540469a497634dc1594fc16db3b4848a8c357427339b1407b15aa3fb1e241"
+    },
+    {
+      "path": "apps/api/app/schemas_claims.py",
+      "bytes": 6798,
+      "sha256": "f541dc5dd98ef893fc20d0265999b27661c35ff6a9e76c6e91ebfa7664688bf5"
+    },
+    {
+      "path": "apps/api/app/schemas_code_changes.py",
+      "bytes": 3967,
+      "sha256": "9801cb7c55c2ee59473bc29678a5caa4b94aa3f5e8c5a5bc2d8294194ae2a889"
+    },
+    {
+      "path": "apps/api/app/schemas_codex_tasks.py",
+      "bytes": 1647,
+      "sha256": "8f5a4a539f041e61850e255baaf7726ee03c28bb6a00c16a325ccac2c9bf6274"
+    },
+    {
+      "path": "apps/api/app/schemas_dashboard.py",
+      "bytes": 620,
+      "sha256": "e06abc4ce2f7b8c2105f57b961430809c54ebd57511d4072fab344625b6205be"
+    },
+    {
+      "path": "apps/api/app/schemas_evidence_bundles.py",
+      "bytes": 3162,
+      "sha256": "95f3b5ae7c8bb1137a42faa80385625d16ca970592df1f412df6770e9b5f871d"
+    },
+    {
+      "path": "apps/api/app/schemas_ideas.py",
+      "bytes": 6149,
+      "sha256": "34b794bddb30db40dbcfceb19ee6d77315ac6e32101b931eaec9820b398d6008"
+    },
+    {
+      "path": "apps/api/app/schemas_literature_context.py",
+      "bytes": 2014,
+      "sha256": "542d4a883af72b1a4a73cea544254f6a0543465a2fe52cae378cd9f9d5b38b25"
+    },
+    {
+      "path": "apps/api/app/schemas_literature_recommendations.py",
+      "bytes": 5735,
+      "sha256": "4b3559fbf718eac476eb6c17f0eddfcde45a43d01e5b84340318196c63251f15"
+    },
+    {
+      "path": "apps/api/app/schemas_manuscript_builds.py",
+      "bytes": 6897,
+      "sha256": "65dc35c7862aa5107eff6c53b3b05af71876ab6e243e98e91dd013d004572fd0"
+    },
+    {
+      "path": "apps/api/app/schemas_note_checks.py",
+      "bytes": 685,
+      "sha256": "dc0adba26c724c95d948a9c131ee9ee13a07e81f410a1a2aeebf2e2c19316ce8"
+    },
+    {
+      "path": "apps/api/app/schemas_note_deletion.py",
+      "bytes": 1947,
+      "sha256": "e6139f7451de7cb52b6343a6736cbb312cbf5c480f5a3f252f0c79f9b5a164c3"
+    },
+    {
+      "path": "apps/api/app/schemas_note_projects.py",
+      "bytes": 653,
+      "sha256": "6fa1f66d2cdf39d8153fc26f8905595a460ed97656856bf683be718876e7ad40"
+    },
+    {
+      "path": "apps/api/app/schemas_note_trash.py",
+      "bytes": 2155,
+      "sha256": "7c869ca974c590dae9ffca0f3a7e8e8d65dafe45826c31c0cf74e0c70edb3af5"
+    },
+    {
+      "path": "apps/api/app/schemas_paper_reproduction.py",
+      "bytes": 7152,
+      "sha256": "3343fd1fd6ac954655b7e21521753bce5dcde4a9d5debb5b519eb205f25ad516"
+    },
+    {
+      "path": "apps/api/app/schemas_pdf_annotations.py",
+      "bytes": 3318,
+      "sha256": "84ab4cb001b082c04fc3bda327731aa13e1c98d915bb0f8be14d85174246bdbe"
+    },
+    {
+      "path": "apps/api/app/schemas_planning_brief_proposals.py",
+      "bytes": 3142,
+      "sha256": "10e95cd30727d13681503f18754da4059e95d08ec9d1f3db71eb14aab77542c7"
+    },
+    {
+      "path": "apps/api/app/schemas_project_archives.py",
+      "bytes": 1713,
+      "sha256": "6b50655eea676a52d1759d233a61c535e60b36db6c65b7bfc1ca26d10f009087"
+    },
+    {
+      "path": "apps/api/app/schemas_project_sources.py",
+      "bytes": 4458,
+      "sha256": "78a3a255c4c2375f38a90c8b5aa86c2039b9a202270e69a39a7512fa9fc441f7"
+    },
+    {
+      "path": "apps/api/app/schemas_provisioning.py",
+      "bytes": 2443,
+      "sha256": "a40f73f63c657cbe77a057f76d95e71791a0a505aa9bf672c7f971f1bc3e67db"
+    },
+    {
+      "path": "apps/api/app/schemas_publications.py",
+      "bytes": 5619,
+      "sha256": "f1a0198ae1ef1f158a9358c229a80f566b1f8314e0607473d999eba60f3d5c1b"
+    },
+    {
+      "path": "apps/api/app/schemas_repository_assets.py",
+      "bytes": 4774,
+      "sha256": "9f4e48eb4542cec78ced39704306c8f18bf9bbb95c18f3d5be98ae2480cdde29"
+    },
+    {
+      "path": "apps/api/app/schemas_research_briefs.py",
+      "bytes": 5718,
+      "sha256": "92f9bc5624739b5f889febdc0c627b0e3ae25b00a010de83e2f31cb347906a70"
+    },
+    {
+      "path": "apps/api/app/schemas_research_planning.py",
+      "bytes": 5062,
+      "sha256": "fec3af55fdacd915c6fff8c5b5404e3bb93f25c72ad8a88234fb3692dedfb917"
+    },
+    {
+      "path": "apps/api/app/schemas_server_results.py",
+      "bytes": 9025,
+      "sha256": "ae8ceeb657f8181ef9e9874ae53b14f5a4459cc4c83e570a47549342dc817069"
+    },
+    {
+      "path": "apps/api/app/schemas_server_task_packages.py",
+      "bytes": 7045,
+      "sha256": "a055a523456cfcc683948c3591d81a155dd097b6389377b56d2813408bdcadb8"
+    },
+    {
+      "path": "apps/api/app/schemas_venue_ratings.py",
+      "bytes": 3866,
+      "sha256": "9e784e8b8868547a3e283fef9f44d05d7ac4a52ab7ab70d374bcb5abe41ff697"
+    },
+    {
+      "path": "apps/api/app/schemas_writing.py",
+      "bytes": 5996,
+      "sha256": "78e502165705acc38e56d9c06e583eaab1fabe63459694f20fa96db7a4ac9583"
+    },
+    {
+      "path": "apps/api/app/services/__init__.py",
+      "bytes": 65,
+      "sha256": "97412040c69eab7770de223dd05d5058e57057b5134bd64f15f445c833bd4d1f"
+    },
+    {
+      "path": "apps/api/app/services/analysis_outcomes.py",
+      "bytes": 30675,
+      "sha256": "af909eca72d4ab3e5c3544f55392323e84e66b2c64200a7b6b1a435e42cb4b91"
+    },
+    {
+      "path": "apps/api/app/services/analysis_parts.py",
+      "bytes": 2714,
+      "sha256": "05050a5e86ae11d45d98ba972b36098a374a81650047135ee008e8ef032ffd19"
+    },
+    {
+      "path": "apps/api/app/services/analysis_worker.py",
+      "bytes": 56262,
+      "sha256": "bd38192f5e6279f385a6703f3da3f1f5dc05ba3a19a9a5b2e11f33778dac4d59"
+    },
+    {
+      "path": "apps/api/app/services/analytical_plans.py",
+      "bytes": 9720,
+      "sha256": "b613f2c33f769b0dd835618dbb30310f85e69fea39e6514b153a79d5033b8f32"
+    },
+    {
+      "path": "apps/api/app/services/analytics.py",
+      "bytes": 9104,
+      "sha256": "eb2d5d37f7bef9dd1a0128054f1fa9403e5bef113da83556c9efd8e94d199b67"
+    },
+    {
+      "path": "apps/api/app/services/archive_jobs.py",
+      "bytes": 10605,
+      "sha256": "22f3ee11fbb767ecab037b0528ff1fd5b20be1995f6b251dfc7447184a7e7979"
+    },
+    {
+      "path": "apps/api/app/services/archive_worker.py",
+      "bytes": 20362,
+      "sha256": "e40e27ab548a5afe1021c131fb931b731b47b9f0952f3620e47e01762e36be11"
+    },
+    {
+      "path": "apps/api/app/services/arxiv_import.py",
+      "bytes": 11837,
+      "sha256": "14d6678ddc4411b1852e73f59f433ce0b8a5501fc20c65f46264bb17ba024df3"
+    },
+    {
+      "path": "apps/api/app/services/attachment_names.py",
+      "bytes": 470,
+      "sha256": "0cd9512bd88141a23da1bb5d5357762ed6d3f5982e8fc62b9be59e8278e9ea09"
+    },
+    {
+      "path": "apps/api/app/services/auth.py",
+      "bytes": 2634,
+      "sha256": "e7e3d0183f753d47c3970a808851c1ebb6dd0e80a5843f966fb014c29d79d9dd"
+    },
+    {
+      "path": "apps/api/app/services/auto_literature.py",
+      "bytes": 3821,
+      "sha256": "696ae0cd376187ef714a600656a12b9cfb3ea97fbb400b7ddb2fdde08b7c2d4e"
+    },
+    {
+      "path": "apps/api/app/services/baseline_run_worker.py",
+      "bytes": 31020,
+      "sha256": "d0af0b16450cdd8483373146352a840f860c77bd04bb5cb4627df7f3b6569a75"
+    },
+    {
+      "path": "apps/api/app/services/baseline_runs.py",
+      "bytes": 43372,
+      "sha256": "1cd0ffcc7b619dd100c0598eaad5b01cb57f5f7b68f0cef77470c0d0ec0bf9c3"
+    },
+    {
+      "path": "apps/api/app/services/baselines.py",
+      "bytes": 39652,
+      "sha256": "dc5b8a9986dd814a78992faaccdc26b455844a49ad633e19d1c9e00dfd5a62b2"
+    },
+    {
+      "path": "apps/api/app/services/bibliography_import.py",
+      "bytes": 12836,
+      "sha256": "0f872f80e68fdd21929252f29532a7e77a72133ea02f7540d0cb54b963f4e616"
+    },
+    {
+      "path": "apps/api/app/services/brief_canonical_sources.py",
+      "bytes": 9741,
+      "sha256": "7ea9f749f5a5a64be58af73f58d46e838ea21041c97398c84e679f4230cfa79c"
+    },
+    {
+      "path": "apps/api/app/services/brief_idea_sources.py",
+      "bytes": 2568,
+      "sha256": "a2b8c7c2ec2f52b891b932e165eea6e9c75c4ebffa6ec25358c30358e63a1248"
+    },
+    {
+      "path": "apps/api/app/services/canonical_notes.py",
+      "bytes": 19078,
+      "sha256": "aca73e20e22b68925534e41d1970da89d7ed59f70bec6b685e8d01c1ac0788dd"
+    },
+    {
+      "path": "apps/api/app/services/canonical_reproduction.py",
+      "bytes": 37161,
+      "sha256": "124bae0d338c7217c02715678c7189dbbcbcb31cc60b6156748928895e1fed27"
+    },
+    {
+      "path": "apps/api/app/services/claims.py",
+      "bytes": 25426,
+      "sha256": "4dac5bb685b414f5b9a63e1f01d0aff4a174582114b830956c4fcbf42f760226"
+    },
+    {
+      "path": "apps/api/app/services/code_changes.py",
+      "bytes": 44079,
+      "sha256": "e7946e4030a45afff1834fa781649f3c0629130bb10d1f95b14ad470327f10fb"
+    },
+    {
+      "path": "apps/api/app/services/codex_diff.py",
+      "bytes": 8412,
+      "sha256": "11c11d93f2e53fd7073602ea0ae146118b03d63bf539ad028ecbf9bc5124c00e"
+    },
+    {
+      "path": "apps/api/app/services/codex_tasks.py",
+      "bytes": 17918,
+      "sha256": "46cccff1c0d4b3d93c16edebb319307221d1529d5a8cb91d2288c350ca29268b"
+    },
+    {
+      "path": "apps/api/app/services/codex_worker.py",
+      "bytes": 16880,
+      "sha256": "a9730d7034f06f9af799edcd6183fc61cbda6fe2df56ad5a3b3c4ca90f148096"
+    },
+    {
+      "path": "apps/api/app/services/common.py",
+      "bytes": 1935,
+      "sha256": "1f9256caa744579ab40a0cfe856f7a4ba94ab9f2ee9e17e3cd640b6fdb70e9db"
+    },
+    {
+      "path": "apps/api/app/services/configuration.py",
+      "bytes": 13327,
+      "sha256": "c629339e88f528fcc252b303179a0e1c6a1a897c7bf5b9f26bd85bc6912c52da"
+    },
+    {
+      "path": "apps/api/app/services/current_reading.py",
+      "bytes": 3694,
+      "sha256": "4090d8b1c0603a2424748986026386d3a06cc51b5610e62c5145628906169128"
+    },
+    {
+      "path": "apps/api/app/services/dashboard_visualization.py",
+      "bytes": 6432,
+      "sha256": "1e350915aa47ec7bbcaf6a801f29ac403643d7a941a39056a452ee38b3de2b3f"
+    },
+    {
+      "path": "apps/api/app/services/doi_import.py",
+      "bytes": 9978,
+      "sha256": "f692fa84fe7a7a9b0b4ca41a3f6dffccd02249c5797d51d10c621d4f3292a075"
+    },
+    {
+      "path": "apps/api/app/services/evidence_bundles.py",
+      "bytes": 21021,
+      "sha256": "9eb98922eec9c1a4945d9e46334ffa2de2c4a1ee5b64959d9b269df01f9d03e1"
+    },
+    {
+      "path": "apps/api/app/services/experiment_artifact_upload.py",
+      "bytes": 5332,
+      "sha256": "36f57f351ed7ceb29fcf4626a2a2bbd1317ec15dd31271b788f056e1c18421dd"
+    },
+    {
+      "path": "apps/api/app/services/experiment_comparison.py",
+      "bytes": 7503,
+      "sha256": "b58ea1e32663e7b827a082ce17f19550dece96c0bcf9441b6231b3f76c1524b7"
+    },
+    {
+      "path": "apps/api/app/services/experiment_registries.py",
+      "bytes": 17549,
+      "sha256": "83e305d6785f45d44a8aea78d789c9d4a41d00e812b87657b7c3d984e156d027"
+    },
+    {
+      "path": "apps/api/app/services/experiments.py",
+      "bytes": 17086,
+      "sha256": "c6c020e66646b4dde38e7627521caa1d2fa674c48067bf115f71bf42d56ace29"
+    },
+    {
+      "path": "apps/api/app/services/export_formats.py",
+      "bytes": 13773,
+      "sha256": "2db9772bc4ebe858a828cfd8a78c9cfc9c3d05e32a792cfc0c387403157ecf00"
+    },
+    {
+      "path": "apps/api/app/services/ideas.py",
+      "bytes": 24934,
+      "sha256": "4c18cde4b2ea5a83e2367019339d460946ec2ccafdc139a2e956e8b0867c91d0"
+    },
+    {
+      "path": "apps/api/app/services/literature_capabilities.py",
+      "bytes": 3955,
+      "sha256": "f38b4bfc0c09364baaf40da2159beeb22bee2c3aebe725f14837b2f98ad22c18"
+    },
+    {
+      "path": "apps/api/app/services/literature_context.py",
+      "bytes": 11569,
+      "sha256": "33a5a9d1fe82bca0db246151611d5c1a3e74e057e835d318be72a3d1918e5e9c"
+    },
+    {
+      "path": "apps/api/app/services/literature_ingest.py",
+      "bytes": 29049,
+      "sha256": "3e95b2bcae79619a882193bc0725c24073b9d8b4b75a9a30fa76c232b13cb94b"
+    },
+    {
+      "path": "apps/api/app/services/literature_recommendations.py",
+      "bytes": 35892,
+      "sha256": "25b484f9cae1697175c9c73185cd1c45492752daab0eafa8a940b3caa7d57104"
+    },
+    {
+      "path": "apps/api/app/services/manuscript_build_worker.py",
+      "bytes": 21609,
+      "sha256": "f6b51ce50bf71166cad199cf278b17e8f05152955fb97664ac420ca182857b6d"
+    },
+    {
+      "path": "apps/api/app/services/manuscript_builds.py",
+      "bytes": 38463,
+      "sha256": "c281f979c983ee33208985c99b01ce40699894e384d958e8002d4dee142e3f6f"
+    },
+    {
+      "path": "apps/api/app/services/note_checks.py",
+      "bytes": 8466,
+      "sha256": "f19bfafb461bf8ac33485473de8f45dad11425893671ad123f1fcee05cd1917e"
+    },
+    {
+      "path": "apps/api/app/services/note_deletion.py",
+      "bytes": 19464,
+      "sha256": "32bdb4d74161d6f4900ae9bda69fc1ecf481aa2c64d964526e088e1e934eeafb"
+    },
+    {
+      "path": "apps/api/app/services/note_deletion_plan.py",
+      "bytes": 17567,
+      "sha256": "e3606dfd7033ceeb2fa99f1e8b67795c2764077beb0c2fc71c63aa62018bd836"
+    },
+    {
+      "path": "apps/api/app/services/note_deletion_state.py",
+      "bytes": 3419,
+      "sha256": "1bba9de031414a01b0c735df0c22669656f073c2a84f8ff0cf7b06ac80db151a"
+    },
+    {
+      "path": "apps/api/app/services/note_projects.py",
+      "bytes": 9814,
+      "sha256": "158f765ef59ecbbfc63477d9447437d6b30215d3a4cce3386145a1ace3d3841b"
+    },
+    {
+      "path": "apps/api/app/services/note_trash.py",
+      "bytes": 19050,
+      "sha256": "a0fc8224100cb1cf640db13daff7a46e8584dd2f2fbf8db9ed2eb4160243d62f"
+    },
+    {
+      "path": "apps/api/app/services/original_pdf_quotes.py",
+      "bytes": 7394,
+      "sha256": "2bd7d337f259e234e97b49d0c17bec94c9ded688fb635e8282d70dd18199aedb"
+    },
+    {
+      "path": "apps/api/app/services/paper_analysis.py",
+      "bytes": 39500,
+      "sha256": "b07a2050a4eecce12ebefd6c3bdf6947c803af963ba2037f469ddf9d21ea3fbf"
+    },
+    {
+      "path": "apps/api/app/services/paper_attachments.py",
+      "bytes": 4035,
+      "sha256": "7f89a668f54a313defa4d96117e74abb718dc94c4db9f08f2dbfee9a02e84f94"
+    },
+    {
+      "path": "apps/api/app/services/paper_projects.py",
+      "bytes": 2498,
+      "sha256": "8854763654ef7c2770da8abd4387232fe6807f9b694bda66a22eea966e063291"
+    },
+    {
+      "path": "apps/api/app/services/paper_reproduction.py",
+      "bytes": 26042,
+      "sha256": "30d049698e73c055bfb80e96421114aea1b7e4ee7b01ee4e63f270b2e1fba5f8"
+    },
+    {
+      "path": "apps/api/app/services/papers.py",
+      "bytes": 9434,
+      "sha256": "1eb62188eb848cb7d6b664cc3dd40f355b7eca68c2c32506ac979e1bdf7b4d46"
+    },
+    {
+      "path": "apps/api/app/services/parse_jobs.py",
+      "bytes": 5593,
+      "sha256": "e1eba22b447df5614d261ec1a49d2e1cccaf032463c88f8d1b2ebbe677693d1e"
+    },
+    {
+      "path": "apps/api/app/services/parsed_documents.py",
+      "bytes": 5046,
+      "sha256": "eb016805d8e3f04d23924ebe07935b578159b92813b0813bfc88b5af3045c439"
+    },
+    {
+      "path": "apps/api/app/services/pdf_annotations.py",
+      "bytes": 14983,
+      "sha256": "889abf5c0b238d11709bc1355072c54bc0b66019fce704b2945b3cfe005cfb33"
+    },
+    {
+      "path": "apps/api/app/services/pdf_reading.py",
+      "bytes": 28364,
+      "sha256": "6a99e08b1f73e657c05d508ef16bf380b21c97828e5d7b8b438e5b7df873b269"
+    },
+    {
+      "path": "apps/api/app/services/pdf_upload.py",
+      "bytes": 6945,
+      "sha256": "dece2f5c103c46591d49aa6df27fcaca51cf51aae981515b5ac1b264a199b91a"
+    },
+    {
+      "path": "apps/api/app/services/planning_brief_proposals.py",
+      "bytes": 22287,
+      "sha256": "57319bfe916438cf728dd8743742618e7783af2321fba0db5f8a566842e1d03a"
+    },
+    {
+      "path": "apps/api/app/services/portability.py",
+      "bytes": 23463,
+      "sha256": "0452b16c3e3b862a9b5541db9bd309cba42f8882e54fefec5a1d8926a82c0a2c"
+    },
+    {
+      "path": "apps/api/app/services/productivity.py",
+      "bytes": 8020,
+      "sha256": "69f44b63cc58731b04f0a839aed1bef71d767c8e41c57fbccc7b65ecba20e258"
+    },
+    {
+      "path": "apps/api/app/services/project_archive_inventory.py",
+      "bytes": 13908,
+      "sha256": "e1fc554a7f2586f8bdd87f0906a40750781afd3854e9e5ba0cfaeb4e6c2b0851"
+    },
+    {
+      "path": "apps/api/app/services/project_archive_publish.py",
+      "bytes": 2784,
+      "sha256": "314a10fd9e15644c9d24c04a290ffd9bec3ef1fb5e9da157a69efcf9703fe9ff"
+    },
+    {
+      "path": "apps/api/app/services/project_note_scope.py",
+      "bytes": 5552,
+      "sha256": "a68f41924c0595e12af25fa95da9eff0ab3cc3fcb1d57a96ec69518ebd3ebdef"
+    },
+    {
+      "path": "apps/api/app/services/project_source_worker.py",
+      "bytes": 16212,
+      "sha256": "9513f87a5d314b5a3abe5a1d13a3788545d5af5267557249f2dd78cda7cdc82b"
+    },
+    {
+      "path": "apps/api/app/services/project_sources.py",
+      "bytes": 45617,
+      "sha256": "c13064cef596056184c8de65f19ceb2d097af7590e35b202b5c5a87632727f45"
+    },
+    {
+      "path": "apps/api/app/services/projects.py",
+      "bytes": 6864,
+      "sha256": "369135f279e92c7acdf212909a5e7849cf7e30820b1fada48a1bf6f62a69bb99"
+    },
+    {
+      "path": "apps/api/app/services/provisioning.py",
+      "bytes": 33506,
+      "sha256": "d6a28658134744f2d4f1bfae466b9fe12a1d07526829424435be78672dabd5a9"
+    },
+    {
+      "path": "apps/api/app/services/publications.py",
+      "bytes": 21715,
+      "sha256": "4a3b74f0966449ae4e9ad170534cb525560c9fe72577052fe182f8a4bcb97990"
+    },
+    {
+      "path": "apps/api/app/services/reading_result_envelope.py",
+      "bytes": 19307,
+      "sha256": "89bc6de11674912f50e150e254e4f9a5939b62bb601ad87bc8c4a04822f9867e"
+    },
+    {
+      "path": "apps/api/app/services/reading_source_bindings.py",
+      "bytes": 4748,
+      "sha256": "88fdb04c6036739a82d8a51907091211dc028356c4b9e92903f215a5a6a1762f"
+    },
+    {
+      "path": "apps/api/app/services/reference_manager.py",
+      "bytes": 6093,
+      "sha256": "074f7ef7df1e083617198d81d0a9f61ae35fa8726416f4f04f6e0720858d8a84"
+    },
+    {
+      "path": "apps/api/app/services/repository_asset_worker.py",
+      "bytes": 23568,
+      "sha256": "063bf2476fac8ab76998b0bd2d0514cd3d29f3c542b0595acd4020f8980d55bc"
+    },
+    {
+      "path": "apps/api/app/services/repository_assets.py",
+      "bytes": 31931,
+      "sha256": "3d781f617924be1c0ccec074ffd19c0ae9f1473f7196d0cf03f9a834accd1f0f"
+    },
+    {
+      "path": "apps/api/app/services/repository_imports.py",
+      "bytes": 25340,
+      "sha256": "8b9b5f3ede23c31e6537e408d96905e9ff2f948101325a015f0018d1fcc42e98"
+    },
+    {
+      "path": "apps/api/app/services/research_briefs.py",
+      "bytes": 20662,
+      "sha256": "b1004ce33fa97ed6102453d8617120866fc8baea180e92b81d984439fa608064"
+    },
+    {
+      "path": "apps/api/app/services/research_inbox.py",
+      "bytes": 9012,
+      "sha256": "03a08fde8af342b38ef713457090b06ce712e4e62ab870031f61cdd78b06109d"
+    },
+    {
+      "path": "apps/api/app/services/research_planning.py",
+      "bytes": 32281,
+      "sha256": "5f2fc4da3121368536c149646266688d89cb6db742e88433ba0cb6a8717989d5"
+    },
+    {
+      "path": "apps/api/app/services/research_planning_worker.py",
+      "bytes": 21307,
+      "sha256": "7881567f2867c423d37f4cc102c88c113b21938e9b0d07d1782bab1714476578"
+    },
+    {
+      "path": "apps/api/app/services/result_file_checks.py",
+      "bytes": 3899,
+      "sha256": "f10c9267d0b301acd004ea47a093bb11b23667cd31c5deb7f7bdcc8732ff76f9"
+    },
+    {
+      "path": "apps/api/app/services/saved_analysis_results.py",
+      "bytes": 15422,
+      "sha256": "4500a1d1ceffac20afedee89fa284897781b839398e2eb1fd9deec080f2323c8"
+    },
+    {
+      "path": "apps/api/app/services/search.py",
+      "bytes": 11931,
+      "sha256": "07572b2dab15556407bb872e0d145e4c04f55d8c5466b0a67b6f96f1cbc6d561"
+    },
+    {
+      "path": "apps/api/app/services/server_results.py",
+      "bytes": 49396,
+      "sha256": "166de1f56abef1209bf88cd0959c8a8fe96a9718a227202c76fb103411606949"
+    },
+    {
+      "path": "apps/api/app/services/server_task_packages.py",
+      "bytes": 49518,
+      "sha256": "c97ebf70db5a9d1c0e8974690222a624a0dc46a8d3ff423d6792d408ffe5a673"
+    },
+    {
+      "path": "apps/api/app/services/skill_discovery.py",
+      "bytes": 2882,
+      "sha256": "a5a32f94990188566cd4249defcc341a735e595a943d758e757a2fac3f22c402"
+    },
+    {
+      "path": "apps/api/app/services/venue_ratings.py",
+      "bytes": 4097,
+      "sha256": "6c47932ca2ab0d5177ba9df5b95a3831e12968e55b7600fa1f142bab77a09758"
+    },
+    {
+      "path": "apps/api/app/services/writing.py",
+      "bytes": 31570,
+      "sha256": "42d589d78c4996584cb2a3dcf05e63f5bc935f08cdd8f67a71e046256dc2c64c"
+    },
+    {
+      "path": "apps/api/app/services/zotero_collection_refresh.py",
+      "bytes": 6499,
+      "sha256": "779e9c18a479c75bcdae7e12224be60b4f6928e1474adc80eddbe28d014a96f9"
+    },
+    {
+      "path": "apps/api/app/services/zotero_manual_sync.py",
+      "bytes": 23063,
+      "sha256": "e2a0ca5c15e491b8e5f3851a091e03df2ea3e2382f9dd9b14efa15d2a1463117"
+    },
+    {
+      "path": "apps/api/app/services/zotero_sync.py",
+      "bytes": 30675,
+      "sha256": "17e29b253ccbbb4a65f05ca26fae08b8d6de3fb8bf5e9daef9c0632ebc4a2aeb"
+    },
+    {
+      "path": "apps/api/app/services/zotero_venue_fields.py",
+      "bytes": 7428,
+      "sha256": "d660237c9b4706f2514194d9c6aa6efdbfecf51c3b94bbe82cbeb00eb09d3d56"
+    },
+    {
+      "path": "apps/api/app/worker.py",
+      "bytes": 7847,
+      "sha256": "81a7ad9fd701f5e6df81e1d33bacb128b883a3011b074e2b896ec96af36ec130"
+    },
+    {
+      "path": "apps/api/pyproject.toml",
+      "bytes": 1128,
+      "sha256": "4e999bf2a7e03d3a52f5b081b207f0f0b48b21f8f60b6f37d044746a68924492"
+    },
+    {
+      "path": "apps/api/tests/conftest.py",
+      "bytes": 542,
+      "sha256": "64083036d312fabb8457c14712067ad4232693e07fb9928f567518e792fb002f"
+    },
+    {
+      "path": "apps/api/tests/test_configuration.py",
+      "bytes": 8459,
+      "sha256": "c358d5386a5ba74a407c86d1b299a608e63a610f2d90e741d54d968cb4b765c2"
+    },
+    {
+      "path": "apps/web/eslint.config.mjs",
+      "bytes": 259,
+      "sha256": "3293500b1ded6298fdf9e97a34bb06d7ec18783dfea0f2fd5a264920784c10de"
+    },
+    {
+      "path": "apps/web/next-env.d.ts",
+      "bytes": 288,
+      "sha256": "1862ac4bbbc5192d4bf562161df66ea547ed3e67173100656ab606ae9797db2b"
+    },
+    {
+      "path": "apps/web/next.config.ts",
+      "bytes": 743,
+      "sha256": "abf358f2f5604e4126e331b50197977cb10e52d5ffaab4e8f6de2c9e3cbef133"
+    },
+    {
+      "path": "apps/web/package.json",
+      "bytes": 1272,
+      "sha256": "908778d0d10872b2786d6dd77e4d22810117b05031bb869e3f6beff1deeb7df1"
+    },
+    {
+      "path": "apps/web/postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "apps/web/scripts/sync-pdfjs-assets.mjs",
+      "bytes": 945,
+      "sha256": "358e23f86d075a14479ddefbe4fb226065185521e9eb47f4b2b89e143ddfaa03"
+    },
+    {
+      "path": "apps/web/src/app/(app)/ai-tasks/[id]/page.tsx",
+      "bytes": 29088,
+      "sha256": "a9f56323cf7cbd1500aa7d23bd9bef1b17ae9c1eb66ccdf243e962a4e2549148"
+    },
+    {
+      "path": "apps/web/src/app/(app)/ai-tasks/page.tsx",
+      "bytes": 23118,
+      "sha256": "34793bafeac014c2a298167cc7d6e2e142240bfaf0d96de70c52935845c5aeaf"
+    },
+    {
+      "path": "apps/web/src/app/(app)/analytics/page.tsx",
+      "bytes": 6385,
+      "sha256": "e426cc166282d4cdd81ec1a4b5e1f86eea7bf724e216254229af1fd0c89e8045"
+    },
+    {
+      "path": "apps/web/src/app/(app)/calendar/page.tsx",
+      "bytes": 3613,
+      "sha256": "6cde469bb103c0376a1af4758128e34ed645d9bd08a9c050bd0248b63cef48d7"
+    },
+    {
+      "path": "apps/web/src/app/(app)/datasets/[id]/page.tsx",
+      "bytes": 293,
+      "sha256": "bcfbbc6563333e833b8569474a4ec56c6a9e6eb3d440ef7f58e68e0a2313a9ad"
+    },
+    {
+      "path": "apps/web/src/app/(app)/datasets/page.tsx",
+      "bytes": 159,
+      "sha256": "63f1750382060263102663e11b487981b32e286e339f05c5f71f6bdaf1f96059"
+    },
+    {
+      "path": "apps/web/src/app/(app)/experiment-runs/[id]/page.tsx",
+      "bytes": 7816,
+      "sha256": "60b4381cd7bdf1736cd23f5da22fe29e8562b10b03611751c6e0d86bc6f54570"
+    },
+    {
+      "path": "apps/web/src/app/(app)/experiments/[id]/page.tsx",
+      "bytes": 11008,
+      "sha256": "e1b400817a44dcd8d368e15086990bb12dc873b9da1bcca195dca17a10ed910f"
+    },
+    {
+      "path": "apps/web/src/app/(app)/experiments/compare/page.tsx",
+      "bytes": 23503,
+      "sha256": "1eaa55864a08d326652749590953fc07f2e6679bd8821508cca0629595354f61"
+    },
+    {
+      "path": "apps/web/src/app/(app)/experiments/page.tsx",
+      "bytes": 5291,
+      "sha256": "41cc0dbdb124c47b4602f739d309895a1966ce3432170aa097c77f39d9ee2563"
+    },
+    {
+      "path": "apps/web/src/app/(app)/ideas/[id]/page.tsx",
+      "bytes": 284,
+      "sha256": "d816598b7ceb6b27ab80ec9a2bc352ac541aa8a2be6f81491252dfffd7282895"
+    },
+    {
+      "path": "apps/web/src/app/(app)/ideas/page.tsx",
+      "bytes": 573,
+      "sha256": "812503c5d0b9292adf67492b4b62e95007b6f23af469230765b559e9b541f318"
+    },
+    {
+      "path": "apps/web/src/app/(app)/inbox/page.tsx",
+      "bytes": 8701,
+      "sha256": "b85cf358d95ffe1ef80c764c2ea14f34cfd151e75916b7b75b0e7c3a915bb857"
+    },
+    {
+      "path": "apps/web/src/app/(app)/integrations/repositories/assets/jobs/[id]/page.tsx",
+      "bytes": 295,
+      "sha256": "00de84ee3fb031302be88ebd26bf6a14568dc48f46fd44a9fb7cdbb1d7765ecc"
+    },
+    {
+      "path": "apps/web/src/app/(app)/integrations/repositories/page.tsx",
+      "bytes": 374,
+      "sha256": "08dc616fbf2e7498a73e1fea72c4ceef34547e8c17837a35a01d27093d38ff50"
+    },
+    {
+      "path": "apps/web/src/app/(app)/integrations/repositories/sources/[id]/page.tsx",
+      "bytes": 287,
+      "sha256": "7a9e8699aa15f244c23ed403504f832c85639e40f20cfd39459a34d064a60628"
+    },
+    {
+      "path": "apps/web/src/app/(app)/integrations/skills/page.tsx",
+      "bytes": 144,
+      "sha256": "be9ab8c6792781e72055332a49f78466c6032d0a7523341ee304294cebf4fd89"
+    },
+    {
+      "path": "apps/web/src/app/(app)/integrations/zotero/page.tsx",
+      "bytes": 40039,
+      "sha256": "21eddfa2b9909565a326fd34e59b0b2f454fb1d8aecc9b73c19ae678bd7572b9"
+    },
+    {
+      "path": "apps/web/src/app/(app)/journal/page.tsx",
+      "bytes": 6912,
+      "sha256": "9bedff97f5aebf394f59d2cae53f5b3023fd5483cf64eb13c4d0ce77c0bbb008"
+    },
+    {
+      "path": "apps/web/src/app/(app)/layout.tsx",
+      "bytes": 221,
+      "sha256": "9f2652667d8327652bbe255f2a3517bad75060fd9f6860468fe21d300c033f73"
+    },
+    {
+      "path": "apps/web/src/app/(app)/literature-jobs/[id]/page.tsx",
+      "bytes": 18873,
+      "sha256": "6bb596259fa25540f7a85b16985687f02aa80a31a045066985d6f0f15e59f89f"
+    },
+    {
+      "path": "apps/web/src/app/(app)/models/[id]/page.tsx",
+      "bytes": 289,
+      "sha256": "4ee1a2fdcfc3eabec0840cc6c24b9f14ed9653094eafc48fbf9ef16633e8da8b"
+    },
+    {
+      "path": "apps/web/src/app/(app)/models/page.tsx",
+      "bytes": 155,
+      "sha256": "b33aa64d8bd0650a569d26484565108e17125f5cb71baacd6a89cc338c8b366d"
+    },
+    {
+      "path": "apps/web/src/app/(app)/note-trash/[id]/page.tsx",
+      "bytes": 2932,
+      "sha256": "828333dc2815a5916ce31192b688bc50b345b49cd20401348708221eb8609521"
+    },
+    {
+      "path": "apps/web/src/app/(app)/note-trash/page.tsx",
+      "bytes": 5027,
+      "sha256": "7dfd432a00b08b5d5b456e2264c37c1dd85efd9299e5db7ada63d4dfaf185f93"
+    },
+    {
+      "path": "apps/web/src/app/(app)/page.tsx",
+      "bytes": 7315,
+      "sha256": "3446bc686657c208f63c59adf0849dc8b8c021dd55cfea7db416ca6d1ff8e9f6"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/[id]/analysis/page.tsx",
+      "bytes": 30590,
+      "sha256": "8e20b70243083980a761b5edd73f784499adec79b7a1c857719988209f7a8750"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/[id]/page.tsx",
+      "bytes": 12757,
+      "sha256": "0911c34fe1118221b79fa4d955193513d59b503dedbcdbe8cb323286f66d3356"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/[id]/reproduction/page.tsx",
+      "bytes": 27369,
+      "sha256": "9fd3451451fe0aaebadd87de70a322fde917c84d57fc77f123efc75da5eb555d"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/import/arxiv/page.tsx",
+      "bytes": 12797,
+      "sha256": "fdf95489a191e36c96962cc36abf5fab119c180b0c035bd3d067bef897754740"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/import/doi/page.tsx",
+      "bytes": 7617,
+      "sha256": "664f2ee0a78305180cbbe38186c5e6d21d4a5c6a03a71de93ed7214abc3cc8ef"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/import/page.tsx",
+      "bytes": 11485,
+      "sha256": "2af1160ca24b35002ead4f7c8ca6dd5366f41ae756d4f89f46b797f145bb53d0"
+    },
+    {
+      "path": "apps/web/src/app/(app)/papers/page.tsx",
+      "bytes": 16232,
+      "sha256": "e55e087156b2403dd721266d5307ecf087057426bd0dbfa71c64f951ea26ecb0"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/archive/page.tsx",
+      "bytes": 20269,
+      "sha256": "00b6e611eb2a64e33a7b522a6ce9860a1b95d50e155817dbaaba4213be39beaf"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/baselines/[versionId]/runs/page.tsx",
+      "bytes": 392,
+      "sha256": "f4cef0660c629fff5201ba58182df3676f63bf3e4798d3a3d179f085daa39956"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/baselines/page.tsx",
+      "bytes": 284,
+      "sha256": "08da2a23ec3deb4014881dd8241d547fd32ead94c7578dc2cae3a3f1c171bf74"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/brief/page.tsx",
+      "bytes": 304,
+      "sha256": "6562f1f7d4498babd8cbf4d829f251eaa1e5253d0e5b93dcc9bcb12a40b026f6"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/code-changes/page.tsx",
+      "bytes": 24699,
+      "sha256": "081cdcf462597f8bb4bf3f7176c8020777eb708fbc55557214e9fbc8b29b0d7f"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/evidence/page.tsx",
+      "bytes": 613,
+      "sha256": "8c62f1d334f7cca38ddc419d3a8093c6b320c857bc4975eb3bee7a076aa7b05b"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/handoff/page.tsx",
+      "bytes": 42300,
+      "sha256": "26ecc852578add95eb0f5dc35209d65b402bd9837bca4602c4d0886bef1e7ce2"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/literature/page.tsx",
+      "bytes": 10994,
+      "sha256": "5aa0ad6719e297458ea5ed8080a5a54ea637baa92598d2005a604db8f0baeca6"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/page.tsx",
+      "bytes": 18948,
+      "sha256": "4215c22c0eeea91d9e05e22dec7d4d2b653db45add129242c401b8b32e6f1187"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/planning/page.tsx",
+      "bytes": 316,
+      "sha256": "68074c51a70c51b222638f8f011a300e7def0677ed4390f9bea514a87549e426"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/publications/page.tsx",
+      "bytes": 613,
+      "sha256": "1f45f8b163f9d944796fd6edfc5295352597bc54777b2091a9899b530cf96720"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/results/page.tsx",
+      "bytes": 44139,
+      "sha256": "9d301b863cd6901bae7a2a712520c48fda4631ea2a9ef1d97597461a63354fbe"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/sources/jobs/[jobId]/page.tsx",
+      "bytes": 357,
+      "sha256": "e62164fef76841b2b0ac0340d73a8fcb6dc86c948c403692d4f2342ff9980b44"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/[id]/sources/page.tsx",
+      "bytes": 309,
+      "sha256": "ec82b24c724e843413c3297bf954590a48122a5726b829f42490e1c22226d8bd"
+    },
+    {
+      "path": "apps/web/src/app/(app)/projects/page.tsx",
+      "bytes": 5253,
+      "sha256": "de08312511b9766e5f353fc50de890cc5e892dd53d51abdc5b6dd33b8c3e5b97"
+    },
+    {
+      "path": "apps/web/src/app/(app)/research-notes/[id]/page.tsx",
+      "bytes": 21263,
+      "sha256": "953eedd4bbfdda189fadda52449b5575e1c76a86ca2e9640862d523200c7d236"
+    },
+    {
+      "path": "apps/web/src/app/(app)/search/page.tsx",
+      "bytes": 9061,
+      "sha256": "bd8370792d5f8ddccb2922560c23bcbf621509ad290cc3278da7106112a05cd5"
+    },
+    {
+      "path": "apps/web/src/app/(app)/settings/literature/page.tsx",
+      "bytes": 18424,
+      "sha256": "5d072c1cc0b664bbec237f37557048d265fd50fad3e941d5089040c8d0799add"
+    },
+    {
+      "path": "apps/web/src/app/(app)/settings/page.tsx",
+      "bytes": 13209,
+      "sha256": "a742805b0e9cbad4980fae38301fd9c0ac8eecef21b0ab0aab5b6229c489094d"
+    },
+    {
+      "path": "apps/web/src/app/(app)/tasks/[id]/page.tsx",
+      "bytes": 8733,
+      "sha256": "cd93d0e662fdd7a363917e94bdd1e7dced1c3bcd086e82044adef403511c4d41"
+    },
+    {
+      "path": "apps/web/src/app/(app)/tasks/page.tsx",
+      "bytes": 9076,
+      "sha256": "da9aaedd208e6f484e9f9376d19f5c406cba5c68f8eb6732bf1c828ade79a9c1"
+    },
+    {
+      "path": "apps/web/src/app/globals.css",
+      "bytes": 10311,
+      "sha256": "64888c5db69817e0799e9d00ecfc504e61d1369a52a405945eb04570899d6420"
+    },
+    {
+      "path": "apps/web/src/app/layout.tsx",
+      "bytes": 496,
+      "sha256": "027554cf4b2eae2eb761912866ec3a6e8a73f3d8048436147944efce04185a3b"
+    },
+    {
+      "path": "apps/web/src/app/login/page.tsx",
+      "bytes": 4079,
+      "sha256": "f3e90fb99b58c3fb86d2c20533d153935ce06eb80d881669bc05b6d56af6dbfa"
+    },
+    {
+      "path": "apps/web/src/components/app-shell.tsx",
+      "bytes": 11156,
+      "sha256": "344566c044ee25fbce6105e099fbb5862e1bdfd358d44e261414f025aae81946"
+    },
+    {
+      "path": "apps/web/src/components/baseline-runs/job-card.tsx",
+      "bytes": 13130,
+      "sha256": "ce83db55bcf6c2657a037c2821be47723dd409909bb046537d33b0de4dc25aac"
+    },
+    {
+      "path": "apps/web/src/components/baseline-runs/plan-detail.tsx",
+      "bytes": 12137,
+      "sha256": "9607f0c113cbd61642b570fc2ca790f5b99ffb9fd9c65edd15c3aa4056dab2e1"
+    },
+    {
+      "path": "apps/web/src/components/baseline-runs/plan-form.tsx",
+      "bytes": 10778,
+      "sha256": "b723325fb8276f7a4eb81e54fd4d1e7e6d2b69fb35f163a1e6515a8b578f3ecc"
+    },
+    {
+      "path": "apps/web/src/components/baseline-runs/runtime-panel.tsx",
+      "bytes": 2151,
+      "sha256": "3b3458fea00d4ccb65c90aeb3aef4f4bf5a5fc48c1ec1d5cc6255469ced0c805"
+    },
+    {
+      "path": "apps/web/src/components/baseline-runs/workspace.tsx",
+      "bytes": 10017,
+      "sha256": "9ddbf5a3c61d40b0877220947d4f9ec17cd08c343c32ae7fdf983092ff684ef1"
+    },
+    {
+      "path": "apps/web/src/components/baselines/input-error.tsx",
+      "bytes": 515,
+      "sha256": "1445868be7d8a5b62482d94039b43383089e295ffca68931dc894089aa6ff8a4"
+    },
+    {
+      "path": "apps/web/src/components/baselines/registry-version-picker.tsx",
+      "bytes": 9645,
+      "sha256": "fc9517908d4c2ff483ce998e596cadbf4df6308461536bf8aa5ca1c44cc7a8cb"
+    },
+    {
+      "path": "apps/web/src/components/baselines/source-file-picker.tsx",
+      "bytes": 10914,
+      "sha256": "fb966e9e0b60df1b0780439232604d2fac4f1020afba826fe736ffd8dcf7ab16"
+    },
+    {
+      "path": "apps/web/src/components/baselines/version-detail.tsx",
+      "bytes": 19593,
+      "sha256": "9ac0eac6ffaa773dc4fff1d54b86199fc9af0e9081282190ffd67e673786b9f6"
+    },
+    {
+      "path": "apps/web/src/components/baselines/version-editor.tsx",
+      "bytes": 17959,
+      "sha256": "9235e573a47a0457bd24cd03fa8346edce0cb8821fc2339a0c3b5c67cc00ad60"
+    },
+    {
+      "path": "apps/web/src/components/baselines/workspace.tsx",
+      "bytes": 17374,
+      "sha256": "cd4af7a3f7f55577191d324f832d31f709e9b8491de91e0bd9645309aac97ab2"
+    },
+    {
+      "path": "apps/web/src/components/claims/bundles.tsx",
+      "bytes": 17408,
+      "sha256": "506fd0171a812694c464d055685ee297187cf84357d1bf62ef0d1239d18bda2d"
+    },
+    {
+      "path": "apps/web/src/components/claims/detail.tsx",
+      "bytes": 9273,
+      "sha256": "3466ac282ae0aa08b37e41a39303801ba35fbc0ac49153823deabea022f0f307"
+    },
+    {
+      "path": "apps/web/src/components/claims/editor.tsx",
+      "bytes": 5008,
+      "sha256": "bf690ef14fecb9ef6bc80b6d423676cf87225e1e54888b75c87c07db7f5ba58d"
+    },
+    {
+      "path": "apps/web/src/components/claims/evidence-picker.tsx",
+      "bytes": 11950,
+      "sha256": "9b98b2ebd1b2c6018fd2e97597fe791db470315fcf7a1a74ffa45be6ffd3fccd"
+    },
+    {
+      "path": "apps/web/src/components/claims/types.ts",
+      "bytes": 2003,
+      "sha256": "fe86880c0e6031b170b32d30ce9e8d935d1675d98f57c6328d47a6e5ba1efcb4"
+    },
+    {
+      "path": "apps/web/src/components/claims/use-pending.ts",
+      "bytes": 3343,
+      "sha256": "1865726d6a84ed7f8fecfdda5bc5eda4b2cca06c9e8edb99d726500d65eedb12"
+    },
+    {
+      "path": "apps/web/src/components/claims/workspace.tsx",
+      "bytes": 15244,
+      "sha256": "59769a47e87107c042912bac646d6e9106567e7dca306f430d3db6d47d4314e4"
+    },
+    {
+      "path": "apps/web/src/components/dashboard/research-charts.tsx",
+      "bytes": 6054,
+      "sha256": "76da9be1f475d978e306557b283d566d444cbd18f957969c8ef3a4cda5660108"
+    },
+    {
+      "path": "apps/web/src/components/dashboard/research-overview.tsx",
+      "bytes": 8256,
+      "sha256": "9a6555a385f1fd67f1ef8394e88dafa292a5d4ee18227584dc3f38f1ba004cae"
+    },
+    {
+      "path": "apps/web/src/components/experiments/experiment-form.tsx",
+      "bytes": 8945,
+      "sha256": "1f01a98762b0a3eeba8984c597db60b236854553af874bd8c1474ae677e8ed98"
+    },
+    {
+      "path": "apps/web/src/components/experiments/hypothesis-review.tsx",
+      "bytes": 4285,
+      "sha256": "72ec27c620f4dbbeaff986bee4033bcfe640222c2c68bf0b19ca06283a5b2168"
+    },
+    {
+      "path": "apps/web/src/components/experiments/metric-chart.tsx",
+      "bytes": 2583,
+      "sha256": "22ac17c3963d37c7eb71111c789620602702f8c9d9f35171531023f2161df47c"
+    },
+    {
+      "path": "apps/web/src/components/experiments/run-artifacts.tsx",
+      "bytes": 11240,
+      "sha256": "9795f12ba2ccbecc257b9d400f62f23dd854b760776ed543c1f054d3116555a0"
+    },
+    {
+      "path": "apps/web/src/components/experiments/run-form.tsx",
+      "bytes": 20584,
+      "sha256": "fade60745f12eb0c35ebd4e6d0abac5ec5a985fe8281e303cc78225c1d415352"
+    },
+    {
+      "path": "apps/web/src/components/experiments/run-metrics.tsx",
+      "bytes": 23068,
+      "sha256": "22cdfb0551e30de4d63f4bcab4e3624854e68f45e6dd7674c4de56e1af00039f"
+    },
+    {
+      "path": "apps/web/src/components/experiments/run-provenance.tsx",
+      "bytes": 7976,
+      "sha256": "10dcc0dc565e422439aa8939d3c4d187666158b2b97a066933d8388c2088204b"
+    },
+    {
+      "path": "apps/web/src/components/experiments/run-status-history.tsx",
+      "bytes": 3821,
+      "sha256": "0163677b1e9bbe302f6ac81c79fcff3a1a8417d275d8a753f441663ad934876a"
+    },
+    {
+      "path": "apps/web/src/components/ideas/actions.tsx",
+      "bytes": 18660,
+      "sha256": "cf53a4c6748d4ed01e77f1665b1cd8b05aaf1c9f8b9d839795da6134b5373a3e"
+    },
+    {
+      "path": "apps/web/src/components/ideas/detail.tsx",
+      "bytes": 8656,
+      "sha256": "6fe11638ac62e219f509cd7f424eb3a117463d2971d479a24a3d1ee9232845b0"
+    },
+    {
+      "path": "apps/web/src/components/ideas/editor.tsx",
+      "bytes": 7838,
+      "sha256": "393b90ce164de315f18072bb864c425abe30802a594128300baa7f060e4add1d"
+    },
+    {
+      "path": "apps/web/src/components/ideas/source-picker.tsx",
+      "bytes": 7736,
+      "sha256": "3896d896b9b5aaaca5baccef902ee3429e86c1a1fe4f6fb5f0ae58fe74ad1132"
+    },
+    {
+      "path": "apps/web/src/components/ideas/types.ts",
+      "bytes": 2132,
+      "sha256": "c4c3435b55796525a3380fc836caa2d361751dcd1edfab28ebd3eb61fdc9f620"
+    },
+    {
+      "path": "apps/web/src/components/ideas/use-action-recovery.ts",
+      "bytes": 3151,
+      "sha256": "878ff495af73887a56e0e19cda58c7c396480c336653a4ea3b3a24494573ec20"
+    },
+    {
+      "path": "apps/web/src/components/ideas/use-capture.ts",
+      "bytes": 3565,
+      "sha256": "161af58120484009691a565414c55fdacdd247d237832eda7550f3f38e91a8ff"
+    },
+    {
+      "path": "apps/web/src/components/ideas/workspace.tsx",
+      "bytes": 14856,
+      "sha256": "4204a9d6ff2a6d32876f90c7b11edbaf5cf1420497806d49b8c6b502acb71345"
+    },
+    {
+      "path": "apps/web/src/components/literature/analysis-result-issues.tsx",
+      "bytes": 18719,
+      "sha256": "5711b775a9ab312c9a28dfc2f0bf59511b40b216c3d9049d1c0cbdd46cbe15fc"
+    },
+    {
+      "path": "apps/web/src/components/literature/classification.tsx",
+      "bytes": 15301,
+      "sha256": "ee7d6dca4263143f559394549e35c99f96fe9a9e51f70b22be9eeae62c719dfb"
+    },
+    {
+      "path": "apps/web/src/components/literature/provider-catalog.tsx",
+      "bytes": 8562,
+      "sha256": "24676749e7f714fb9c7e59d9ada9d846d3ebf1bbf0dfe3c80ec8da5e189589a8"
+    },
+    {
+      "path": "apps/web/src/components/markdown/markdown-content.tsx",
+      "bytes": 4686,
+      "sha256": "e6a9a4d66288700f320dd2b06bf443f452525da3f649880e592a3c51e647b056"
+    },
+    {
+      "path": "apps/web/src/components/markdown/markdown-viewer.tsx",
+      "bytes": 2695,
+      "sha256": "989d08745073fa3cafc87f286cde322a39ad4a2827a7e4b047ce9280a82f7930"
+    },
+    {
+      "path": "apps/web/src/components/markdown/remark-formula-compat.ts",
+      "bytes": 5173,
+      "sha256": "d55be6233b9d6f467f7368dcedc38303eba51eca347c0d5dfd99de72dd5fe903"
+    },
+    {
+      "path": "apps/web/src/components/papers/canonical-note.tsx",
+      "bytes": 8863,
+      "sha256": "322d67667ab2f0a4f2491bca4e4986cfa67aa39eb74bbb475cf7374e688259cb"
+    },
+    {
+      "path": "apps/web/src/components/papers/direct-pdf-reading.tsx",
+      "bytes": 15457,
+      "sha256": "71deda2032e437ceb832b903f9d74efa47ff0f563bbf98ef13ec2b833724d9ea"
+    },
+    {
+      "path": "apps/web/src/components/papers/pdf-upload.tsx",
+      "bytes": 4947,
+      "sha256": "fff2719e3f3f9d7d4ed241876190e7587ad86d4920c29dbad1774d9f6dccfcbb"
+    },
+    {
+      "path": "apps/web/src/components/papers/reading-plan-sources.tsx",
+      "bytes": 5130,
+      "sha256": "6969033b9c14abf95cb9ab882fc61611dca36ca1371a46f21a1654ce60f54ada"
+    },
+    {
+      "path": "apps/web/src/components/papers/reading-result-envelope.tsx",
+      "bytes": 14734,
+      "sha256": "80f68f0006904cfa4897d405ed2d44ceb1fc40cb0421232556c414d6e0ea9590"
+    },
+    {
+      "path": "apps/web/src/components/papers/reading-task-card.tsx",
+      "bytes": 9323,
+      "sha256": "992c938ca9ea76ec4924569d8b5abf2bfc55cd86c7758366e3354041da4151be"
+    },
+    {
+      "path": "apps/web/src/components/papers/reproduction-context.tsx",
+      "bytes": 9109,
+      "sha256": "6413493e20b4e46a21de8fa0a9045c75e65b740effe5e02de04f71bffc93485e"
+    },
+    {
+      "path": "apps/web/src/components/papers/reproduction-excerpts.tsx",
+      "bytes": 5973,
+      "sha256": "57a6ecf40dfe73cfda2985cb1ef5122420e4df2a7c1faa37988570d238acf0df"
+    },
+    {
+      "path": "apps/web/src/components/papers/reproduction-source.tsx",
+      "bytes": 2856,
+      "sha256": "214e2cf36def6394ff49ad7a2bdf163987571869a5abbc327b5d1530faeadfaf"
+    },
+    {
+      "path": "apps/web/src/components/papers/venue-ratings.tsx",
+      "bytes": 22080,
+      "sha256": "a2553a906f6aae3e829e451ee6d17b0fee2886e45f6a39661902864cf2f614ba"
+    },
+    {
+      "path": "apps/web/src/components/papers/venue-summary.ts",
+      "bytes": 2103,
+      "sha256": "e13430b0d3e8be68880d8ef2a75fafcb9b79cc31d8312af9c4374f88bb2dadc1"
+    },
+    {
+      "path": "apps/web/src/components/pdf-annotations/continuous-pages.tsx",
+      "bytes": 4222,
+      "sha256": "f0939d22c310cd57167a4ebe87f2bdb37a607f645cd4af078224742f0bfc6f2a"
+    },
+    {
+      "path": "apps/web/src/components/pdf-annotations/pdf-page.tsx",
+      "bytes": 4425,
+      "sha256": "f59cdd2d000d8cb0f6a45ef2e24a1ce19c5aeb6b2ea9afbaae52dece41778128"
+    },
+    {
+      "path": "apps/web/src/components/pdf-annotations/reader.tsx",
+      "bytes": 25981,
+      "sha256": "f71b11b8b09afa1d243db29e4f0768c871a9c6e6502ed1f325b4527ac6abc258"
+    },
+    {
+      "path": "apps/web/src/components/pdf-annotations/text-layer.css",
+      "bytes": 1372,
+      "sha256": "d617c6829a9ca43d04378ea472445a9bfa8ab9f6c5a164bcc5618f02a83b89c7"
+    },
+    {
+      "path": "apps/web/src/components/pdf-annotations/types.ts",
+      "bytes": 1561,
+      "sha256": "10d8f80ad8c0d4b4e677c245a89123f319263314f7f66177b2d0e3d67af14475"
+    },
+    {
+      "path": "apps/web/src/components/projects/archive-jobs-workspace.tsx",
+      "bytes": 22498,
+      "sha256": "f5ec546c0252d3ddae350d909855ca6075846cd7264872005a4f8597bc007180"
+    },
+    {
+      "path": "apps/web/src/components/projects/planning-brief-candidate-review.tsx",
+      "bytes": 17042,
+      "sha256": "473b5d70063d21a9acbdb31f427a8a0c6fde7021034eeca368724cc7471dbc41"
+    },
+    {
+      "path": "apps/web/src/components/projects/planning-grant-detail.tsx",
+      "bytes": 12708,
+      "sha256": "8c338fbe0009e919548e40e2decca494c8503a0d9e82ca731684bd6b467e40d8"
+    },
+    {
+      "path": "apps/web/src/components/projects/planning-grant-form.tsx",
+      "bytes": 7848,
+      "sha256": "3ebae05a9eb9de0caae8c0852fcfd3db90f7af5c5053438b6550e9889fd0c27d"
+    },
+    {
+      "path": "apps/web/src/components/projects/planning-job-card.tsx",
+      "bytes": 6538,
+      "sha256": "cf4748d2da051282075d97d9a84925dfa093821bbd670130580fe06b91d2900d"
+    },
+    {
+      "path": "apps/web/src/components/projects/planning-markdown-candidate.tsx",
+      "bytes": 2589,
+      "sha256": "bf7fb84ebb1b4703bbb6a1644399b93e4d47bf21f435ac9c1fa2dcf53254dfb2"
+    },
+    {
+      "path": "apps/web/src/components/projects/project-paper-picker.tsx",
+      "bytes": 15285,
+      "sha256": "b765db9156495b16310aa62c35c245971727fdf922750bf4c8a8d2140b42cad7"
+    },
+    {
+      "path": "apps/web/src/components/projects/project-provisioning-workspace.tsx",
+      "bytes": 24668,
+      "sha256": "e8119d56822a48f28925be40f32152e55278f0fabde5727744fabca3bab68e6e"
+    },
+    {
+      "path": "apps/web/src/components/projects/project-source-job-workspace.tsx",
+      "bytes": 20928,
+      "sha256": "72102948cfa383f3bbce7efcb14dcf9626cd8bcf79e559717296d027fc7aab0f"
+    },
+    {
+      "path": "apps/web/src/components/projects/project-source-plan-viewer.tsx",
+      "bytes": 10462,
+      "sha256": "2e117c83ea9ca83e535d8d77abc037f455e54e3ba7a831e70b42db5b59cba595"
+    },
+    {
+      "path": "apps/web/src/components/projects/project-sources-workspace.tsx",
+      "bytes": 15460,
+      "sha256": "f51f16b90fcc32924ab9fac0854b6930f4d570739c87f4292e5e6715ac4db10f"
+    },
+    {
+      "path": "apps/web/src/components/projects/research-brief-detail.tsx",
+      "bytes": 14776,
+      "sha256": "30ab4f7c6310e679b33112aa30dde930435b9f66799343afd415057e1a59fa87"
+    },
+    {
+      "path": "apps/web/src/components/projects/research-brief-editor.tsx",
+      "bytes": 11692,
+      "sha256": "81d6d564169cfe99ef6d4b13c1feafb8a010010eddd05e702a3c416b54714edb"
+    },
+    {
+      "path": "apps/web/src/components/projects/research-brief-note-picker.tsx",
+      "bytes": 9781,
+      "sha256": "7c103ddbcb38c97043af1f85aa406d7b77d1a03adc3f21644550c6c86e59e976"
+    },
+    {
+      "path": "apps/web/src/components/projects/research-brief-workspace.tsx",
+      "bytes": 12668,
+      "sha256": "212f7b95a4911f99ac418974fa90405c36040036314f76c67a632b06150a85fc"
+    },
+    {
+      "path": "apps/web/src/components/projects/research-planning-workspace.tsx",
+      "bytes": 19736,
+      "sha256": "ea0ee21c5c69ac092e0aecd0d5331d24884c5fda70d7347513f8c4dab2af71ad"
+    },
+    {
+      "path": "apps/web/src/components/publications/bindings.tsx",
+      "bytes": 8954,
+      "sha256": "be4bf760a6909f14e774eeaaa6fc313926dae583fe55ed86f6d8516acf21c007"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/detail.tsx",
+      "bytes": 6332,
+      "sha256": "2aeba1c722c18afe97b758b441237563f38fc62f73277e95e4226295d594acec"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/form.tsx",
+      "bytes": 15401,
+      "sha256": "2bfd34216674cb66f13fd0ce8e3d7c70f46c0b23befd351b08ae119e1ff82e5e"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/materials.tsx",
+      "bytes": 10608,
+      "sha256": "6187fb2715f19142b5b27d9363dc134e0536d06b0ce78715d7f4bc2291a2f256"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/types.ts",
+      "bytes": 594,
+      "sha256": "3b191ae4bae939c189a1203dd42bfb975cbb87922f02a300bfd9a7861f5fa315"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/use-pending.ts",
+      "bytes": 3471,
+      "sha256": "4e10c61e3f4dc569fab3600b64af39686cabd92e222205f0e43a19309d1a24eb"
+    },
+    {
+      "path": "apps/web/src/components/publications/builds/workspace.tsx",
+      "bytes": 12795,
+      "sha256": "33814ad6ffc1546eaaf9e186b628b2057661b1bff19dc4f4dd7f8db0b5f25e79"
+    },
+    {
+      "path": "apps/web/src/components/publications/detail.tsx",
+      "bytes": 7700,
+      "sha256": "6f53943cb621564c2abceda2f3130010a23aa7d20d8d47ae130e5e06458434c8"
+    },
+    {
+      "path": "apps/web/src/components/publications/editor.tsx",
+      "bytes": 6955,
+      "sha256": "4251de5b32117d4db453c82c4abcb1a74da0bf6b6b0f56b821106484f88838df"
+    },
+    {
+      "path": "apps/web/src/components/publications/request-hash.ts",
+      "bytes": 741,
+      "sha256": "7be4a46b74d9fb990b9b18b97d91e3e5913d36d5e945faa728f09eefb4d8be38"
+    },
+    {
+      "path": "apps/web/src/components/publications/sections.tsx",
+      "bytes": 2409,
+      "sha256": "706443e2540fe6da1f80270aa379b75425e887af5695f4675621a93024bc661d"
+    },
+    {
+      "path": "apps/web/src/components/publications/sources.tsx",
+      "bytes": 4994,
+      "sha256": "3a510cfbac1a7bbc4d97634230f560756f50d9dd798624cf1271c993ff42ac72"
+    },
+    {
+      "path": "apps/web/src/components/publications/types.ts",
+      "bytes": 3377,
+      "sha256": "e9f34bc54a689ba3ecc8a53e76c7524862c3be52179d33d5ea3d92ac39aae5b4"
+    },
+    {
+      "path": "apps/web/src/components/publications/use-pending.ts",
+      "bytes": 3399,
+      "sha256": "9f1b19a3d42fccc163b71d49e83c8fd9fbfd46412d97cb6f6152e24f00b6c6fd"
+    },
+    {
+      "path": "apps/web/src/components/publications/workspace.tsx",
+      "bytes": 15066,
+      "sha256": "73efe4cd17f3b5c09178241e8ee770d7ced12c9658140c767ceae3b9132d7767"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/form.tsx",
+      "bytes": 9128,
+      "sha256": "3b49cab5ec26e0f9452e64efd4b26f25ba5cc2b1437b998ff3b56bc1b64179d8"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/plan.tsx",
+      "bytes": 13292,
+      "sha256": "0ac848edb7afb37c849f74c25952741826cd7166130fd565e6867ccb90dd2129"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/review-issue.tsx",
+      "bytes": 3914,
+      "sha256": "198b5264dbc143d69e00ebf5055009b3b766d60ad71e67f3e355a0b749f975a1"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/types.ts",
+      "bytes": 521,
+      "sha256": "6d7400e6a8c94af3b84c958e710fe714a6c5c9205f80e7f66405aa0ff5941640"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/use-pending.ts",
+      "bytes": 3518,
+      "sha256": "67d9dd03092288e03b96ef407120f6938e4332f4758455a991d5e8f792039c9b"
+    },
+    {
+      "path": "apps/web/src/components/publications/writing/workspace.tsx",
+      "bytes": 12975,
+      "sha256": "315f54b8d44cac3e63604f841981fec8be9b28844177f889baf03ffdf26779d3"
+    },
+    {
+      "path": "apps/web/src/components/registries/dataset-version-form.tsx",
+      "bytes": 11858,
+      "sha256": "71acefa550f66981073524a52cf088a6915d3a1937ede5189be7f2a0c6adf280"
+    },
+    {
+      "path": "apps/web/src/components/registries/detail-view.tsx",
+      "bytes": 13586,
+      "sha256": "5a62fc38a31a8fe5c6a6a661ed0d63332460a611e32ba75b21aa25ea753e5f1c"
+    },
+    {
+      "path": "apps/web/src/components/registries/fields.tsx",
+      "bytes": 1163,
+      "sha256": "a63e1dcd5d4ba0d50d590b72b1ad418dd7f46078416ff57fcd681c1eb1ae9ee8"
+    },
+    {
+      "path": "apps/web/src/components/registries/list-view.tsx",
+      "bytes": 5485,
+      "sha256": "40e5716f3b24096f4a9eee1ae560b1d581968ba56b3d96a1d4958856d9c215c5"
+    },
+    {
+      "path": "apps/web/src/components/registries/metadata-form.tsx",
+      "bytes": 5922,
+      "sha256": "d3c39a65e050a81b4a3272d22fce64d748a602f4b4832e0e99db1e557d423abe"
+    },
+    {
+      "path": "apps/web/src/components/registries/model-version-form.tsx",
+      "bytes": 11755,
+      "sha256": "11db6456920a9ef8426cd579bce3848cf6ae7cd030ce49d1ee0dff7541d9e820"
+    },
+    {
+      "path": "apps/web/src/components/repositories/asset-job-workspace.tsx",
+      "bytes": 15776,
+      "sha256": "5af5e02efdf4c43c1bc888a1b06f404178654e79944fb0fc000da96feef9d02e"
+    },
+    {
+      "path": "apps/web/src/components/repositories/asset-plan-viewer.tsx",
+      "bytes": 13750,
+      "sha256": "369eba4d248f522dc3ac050690ae0cb9bb11a2e2eaddf9071f23d9327aafba32"
+    },
+    {
+      "path": "apps/web/src/components/repositories/asset-project-target.tsx",
+      "bytes": 4247,
+      "sha256": "81cd39400d8067e53eeb2d4319a07ff7bdf5a6c736327d63b07d4fb70a6ffe23"
+    },
+    {
+      "path": "apps/web/src/components/repositories/confirm-form.tsx",
+      "bytes": 8170,
+      "sha256": "1e62b1fc6a955a7fab22b253b0166634251985832cf10935bc548f6c43549f98"
+    },
+    {
+      "path": "apps/web/src/components/repositories/import-preview.tsx",
+      "bytes": 4722,
+      "sha256": "d692f58cc87176363a979dafc1b04b4f4a848b20f5420809cac425cfd5ab62a0"
+    },
+    {
+      "path": "apps/web/src/components/repositories/import-workspace.tsx",
+      "bytes": 10884,
+      "sha256": "5a5299311f0fa3153adf05344fca171a32c72a643d7851dcc3ec5bc8a9f21604"
+    },
+    {
+      "path": "apps/web/src/components/repositories/lookup-form.tsx",
+      "bytes": 5981,
+      "sha256": "cc970b9aa70cfc06fb20682053cc03bfab6975d3b2edc6315a5e4cd8a886b876"
+    },
+    {
+      "path": "apps/web/src/components/repositories/metadata-view.tsx",
+      "bytes": 3176,
+      "sha256": "93ac042d47c45a3ba5af7447b8f75c3f759dd046502ed5a5f05121090fa79bc0"
+    },
+    {
+      "path": "apps/web/src/components/repositories/repository-assets-panel.tsx",
+      "bytes": 9168,
+      "sha256": "892d8dcb60cbea51fff321ad99cdbe7df8be64bb8964fdb7718011a809be60bf"
+    },
+    {
+      "path": "apps/web/src/components/repositories/source-text.tsx",
+      "bytes": 936,
+      "sha256": "5113abf4e9afb4f9e7aa931f84027b5e14b75d40f0650b540d5fad94017c8e3a"
+    },
+    {
+      "path": "apps/web/src/components/repositories/source-view.tsx",
+      "bytes": 4920,
+      "sha256": "a9aca1c11073656f0f914a85ec97d5a44a43175c15aaf592766aa561f7a30d31"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/feedback.ts",
+      "bytes": 2139,
+      "sha256": "33ed0777d53212314be8bb0173bce3306c7523384858b09ad49252a2a8ec890c"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/generated-file-settings.tsx",
+      "bytes": 4574,
+      "sha256": "cb638a8dd3c9914fbc104bea9087112a13d02d5b37f9939c25a6507535c3a96d"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/review-panel.tsx",
+      "bytes": 10126,
+      "sha256": "88dc5514cdd543bd20538d5fe009e003caed7b319b3f74efaa53959639a3e36e"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/source-panel.tsx",
+      "bytes": 5014,
+      "sha256": "db080434970eaab73eb8a66aaeb98942333ca0598edb1665f185eac1e52864d1"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/trash-contract.ts",
+      "bytes": 2188,
+      "sha256": "413c925acf28381e14421124c949ea753707fee7b6077c50eda161410f5aa564"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/trash-control.tsx",
+      "bytes": 14142,
+      "sha256": "da84a639e21ac2abe5ad01f1e62bc753a1d19495f87b795013f2d85eb38fd897"
+    },
+    {
+      "path": "apps/web/src/components/research-notes/trash-details.tsx",
+      "bytes": 2137,
+      "sha256": "48c0c1c75ae892ab17dd8614ffa66f4a87bafd04e65aef5b684480ef5c5c0878"
+    },
+    {
+      "path": "apps/web/src/components/skills/skill-candidate.tsx",
+      "bytes": 4178,
+      "sha256": "05066bab402f60cfb500900184b8bd0bf3036bca78240292b2eded70df565e6f"
+    },
+    {
+      "path": "apps/web/src/components/skills/skills-workspace.tsx",
+      "bytes": 12886,
+      "sha256": "0cc81bd6b48a33e3eb0df657377ea71428e7fc04e27e4673bcdafd58b27ffa04"
+    },
+    {
+      "path": "apps/web/src/components/theme-provider.tsx",
+      "bytes": 311,
+      "sha256": "d5f3e581d91ce31b865246e91b874052ac16267499bb9f3c0643f2f2fe054e8f"
+    },
+    {
+      "path": "apps/web/src/components/ui/button.tsx",
+      "bytes": 1410,
+      "sha256": "0d422bcb457e79a71972242c9bd20bef6acf01aaa4ae572528ab34a4ac768078"
+    },
+    {
+      "path": "apps/web/src/components/ui/card.tsx",
+      "bytes": 662,
+      "sha256": "756bcad62b266cc5d205fbc2bddf1d3b2c01a0488ea8c2fe35e6b1f98ea12cec"
+    },
+    {
+      "path": "apps/web/src/components/ui/input.tsx",
+      "bytes": 927,
+      "sha256": "5bddb78a5b4fb905d824aab78c6ef057e606ac1ffb6dd41b76dd77f2d704dffc"
+    },
+    {
+      "path": "apps/web/src/components/ui/state.tsx",
+      "bytes": 1215,
+      "sha256": "a1900b0c54ecc5449c2e7f6d75bec3f282c0e361cdf141c59c4c50c2291416bf"
+    },
+    {
+      "path": "apps/web/src/components/zotero/sync-summary.tsx",
+      "bytes": 13323,
+      "sha256": "7a44d15cc183495cb157539cfe04a45e555379868fb21759d44fa29244014c0c"
+    },
+    {
+      "path": "apps/web/src/lib/api.ts",
+      "bytes": 8023,
+      "sha256": "3eede88ca70f75d48c33e0ed7ccfea093b1132f40eab3a1e63b2c737a97808b5"
+    },
+    {
+      "path": "apps/web/src/lib/codex.ts",
+      "bytes": 1956,
+      "sha256": "dc1d9b4d6a4316858241ad43fde02dd856bb6a9877d23c676f093e1d6dd9c55b"
+    },
+    {
+      "path": "apps/web/src/lib/experiments.ts",
+      "bytes": 5369,
+      "sha256": "c209e6ef4282ebe17a6296b8a6fb68a19cc41c1ebf85be5a5a752bf651af4265"
+    },
+    {
+      "path": "apps/web/src/lib/generated.ts",
+      "bytes": 135262,
+      "sha256": "1ccd0426b688a1c005c1cbf931af76a4b88ff37a95a6d364bea9dc6907bc74b5"
+    },
+    {
+      "path": "apps/web/src/lib/repositories.ts",
+      "bytes": 1451,
+      "sha256": "8655d3f7d4b27c811316e0c8fb028dca91f1ef1c578b2170653ad00943bd7080"
+    },
+    {
+      "path": "apps/web/src/lib/skills.ts",
+      "bytes": 962,
+      "sha256": "86ddc3c67bccdba429485fc40460b4a25fcbb769b57cd86e3565e07bc8ebfbf1"
+    },
+    {
+      "path": "apps/web/src/lib/utils.ts",
+      "bytes": 409,
+      "sha256": "ff432deba2e5d1b73fdca93d2e47ad60ee87e8385cc97de9e0a29dc0477fbc64"
+    },
+    {
+      "path": "apps/web/tsconfig.json",
+      "bytes": 704,
+      "sha256": "16ddfc75d988707736ac50588933ab3e63c1fd30c9836ecfa68a3ab46851d1cd"
+    },
+    {
+      "path": "ARCHITECTURE.md",
+      "bytes": 1189,
+      "sha256": "f0224082ea1ede2f4baaabb0853488e969452042a3095304043461c81269c5ef"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 236,
+      "sha256": "ab3fc5b79435380fc3aeb74cf7d018f4897249b3e3348f5150390973138278c8"
+    },
+    {
+      "path": "check_researchos.cmd",
+      "bytes": 237,
+      "sha256": "892f834bbecc327f6fcf8b93ad315922ccf38e2c9532c07ba0504609702d2dc6"
+    },
+    {
+      "path": "compose.yaml",
+      "bytes": 1534,
+      "sha256": "5b7430bc8cffdaa27e89d3df26bfec34c16a5b651d6f098b68adc50f70537b47"
+    },
+    {
+      "path": "DATABASE.md",
+      "bytes": 1004,
+      "sha256": "44950c553ae300b2f0c9d8ee7b2a390347baead341edc7893ca339ba2c1b349d"
+    },
+    {
+      "path": "docker/api.Dockerfile",
+      "bytes": 378,
+      "sha256": "76c7aa464fdd0c3d08f6fcd0393f042cc30919d5f109434cf154917777ac8938"
+    },
+    {
+      "path": "docker/web.Dockerfile",
+      "bytes": 563,
+      "sha256": "e18e59a934dbf1d216ce66000969617725c16cb0a93e41812d0c2343f7eb7085"
+    },
+    {
+      "path": "INSTALL.md",
+      "bytes": 6705,
+      "sha256": "0e3a91846d40c9d8cefc154bf070b95554fc6f6c59c5d5f492f9a0c499980707"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 1085,
+      "sha256": "e312d7a8de35b17d2330420456309a2b24a8f129d831f9632391f270c00552d8"
+    },
+    {
+      "path": "open_researchos_guide.cmd",
+      "bytes": 51,
+      "sha256": "1d818223cc5f8263554ec377f686d9746d564a826507d93c84a7cdb4c187aefc"
+    },
+    {
+      "path": "package.json",
+      "bytes": 328,
+      "sha256": "ff00115c3a12149ac79ced805ac52e101fecf5b0c9c0cb1f2f89aa61b3c5e0bb"
+    },
+    {
+      "path": "packages/contracts/openapi.json",
+      "bytes": 1723414,
+      "sha256": "c414853be1cfd148d9b14f13d089a57c1ce8651c95fbc053ca0ebee58b3196e4"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "bytes": 217283,
+      "sha256": "b56d94a851411f2c100d104158cdd7353dc72a61340304b00e12395aeb34f0ba"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "bytes": 58,
+      "sha256": "9f215e6e25291b49e0537ca1a87020c61ef4b9a5f0305ec15456e82814cf0d1e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5072,
+      "sha256": "05f03edcf93d86fed0173506eb6bc279026960e7c22c53ba0c11aae5c2ea10a7"
+    },
+    {
+      "path": "restart_researchos.cmd",
+      "bytes": 239,
+      "sha256": "ae134cd300b51b61a555f073e390a7963be5f0825459aa2b64135878faf3474b"
+    },
+    {
+      "path": "ROADMAP.md",
+      "bytes": 741,
+      "sha256": "19a42cd537bb41e3b04d89c3b90626c18162772d0010ed3a2db9da5851fae49c"
+    },
+    {
+      "path": "scripts/archive_project.py",
+      "bytes": 9067,
+      "sha256": "3f64ff4cd5be9ca640542b96adacc8c517459cb7ee7efcfd40f76c93a771d7ac"
+    },
+    {
+      "path": "scripts/backup.py",
+      "bytes": 11235,
+      "sha256": "edc9cea33966267714f356e852790b5e60bcfbb25bf778eeebdb12db66fbdca4"
+    },
+    {
+      "path": "scripts/check_local.ps1",
+      "bytes": 2328,
+      "sha256": "b844deaf6290fa28a7343af274fba92ea741dd97ca101fd8db077865bf4ff849"
+    },
+    {
+      "path": "scripts/durable_runtime.ps1",
+      "bytes": 11245,
+      "sha256": "8167c2e2504dfe6440982e63c77d2029d56f2b7e45f189cf49eb01110cd9eaf8"
+    },
+    {
+      "path": "scripts/export_openapi.py",
+      "bytes": 996,
+      "sha256": "5db3ff4fa3c7b976aefa5b38b443402c78ade5ff94f967f2fbea39b5fbe4cded"
+    },
+    {
+      "path": "scripts/export_server_result.py",
+      "bytes": 17874,
+      "sha256": "485e5d29819fd26c162f7f78b6372b176a255366cb83a91404b35fd5a2b16088"
+    },
+    {
+      "path": "scripts/generate_ts_contract.py",
+      "bytes": 3619,
+      "sha256": "90c1afab215784276e58637e692832cba8f6931a097fd51ff8209de3ef5cb19b"
+    },
+    {
+      "path": "scripts/host_local.ps1",
+      "bytes": 3912,
+      "sha256": "a3aea44f98b17f15094c0d96aba0526a3b0ac17e7fd0b35d7e3011645e1a2c68"
+    },
+    {
+      "path": "scripts/initialize_blank.py",
+      "bytes": 3041,
+      "sha256": "b6dbcd21f25bd51b119f727fb27483368b18d452b225b00295cb4023aa222bc3"
+    },
+    {
+      "path": "scripts/install_desktop_launcher.ps1",
+      "bytes": 3605,
+      "sha256": "d659b965d24a3547cb4ed01b54cb0eaf4ad6fdb0674bef8051ff500b6ea2ed5b"
+    },
+    {
+      "path": "scripts/local_runtime.ps1",
+      "bytes": 13734,
+      "sha256": "abc36ba1dece13abdd1a8b9cfbb174fed9cf524748be89c9e421aa214c99df3e"
+    },
+    {
+      "path": "scripts/restart_durable.ps1",
+      "bytes": 2687,
+      "sha256": "1fc6465f2c04fbae63f325d1fc66383a039c883843ac7b42e45213472df050ec"
+    },
+    {
+      "path": "scripts/restore.py",
+      "bytes": 16137,
+      "sha256": "5d664598488d46f4041bce553ac2046c70e8d95c1032e631793c4c86d0cc0876"
+    },
+    {
+      "path": "scripts/runtime_status.ps1",
+      "bytes": 11725,
+      "sha256": "9a7795dc803ce67c277a5594a22fcc54e0e29da5541669cab3394124a6da0642"
+    },
+    {
+      "path": "scripts/share_launcher.ps1",
+      "bytes": 2922,
+      "sha256": "d46cadf21165418372b521fc6d9b01c3f4b10fab51806461c8950f7d6ce2dbf2"
+    },
+    {
+      "path": "scripts/start_durable.ps1",
+      "bytes": 7028,
+      "sha256": "3bfe52f701c33690c24e657c361ef9c5a767a48b896ca4dd0b01e95350fcc111"
+    },
+    {
+      "path": "scripts/start_local.ps1",
+      "bytes": 16675,
+      "sha256": "0928a07ba0d9530a70efadc5c0795769482719e1952825094da5b6cdc2d113b6"
+    },
+    {
+      "path": "scripts/startup_checks.ps1",
+      "bytes": 2286,
+      "sha256": "238911491dfe8d88b836d0181f8854e56b73fb210dc6c7e6fb3cb5052ae26539"
+    },
+    {
+      "path": "scripts/stop_local.ps1",
+      "bytes": 3883,
+      "sha256": "98b09294c841c51a6e05257dd82b4c36f171dd78c90998b7a369f0735393567c"
+    },
+    {
+      "path": "scripts/verify_blank_package.py",
+      "bytes": 1419,
+      "sha256": "1b5c7ae695f1d05390c90d321063393e2662a24de282dd8a61f3a7ab15f4be85"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2430,
+      "sha256": "f787d3b02963f7ab1542f7420a07901e83946017879630d7bf5882753806fefd"
+    },
+    {
+      "path": "start_researchos.cmd",
+      "bytes": 237,
+      "sha256": "f1bff83d285024cec05d7eb34087b9e1e95df03b8ca54bef0f62947ad8bce2a7"
+    },
+    {
+      "path": "stop_researchos.cmd",
+      "bytes": 236,
+      "sha256": "866d755e0ee5151ba124d6568ad7e0594ce244ed4ec2674968c64274119719b4"
+    },
+    {
+      "path": "templates/reading-note.md",
+      "bytes": 1463,
+      "sha256": "b631dbb953aaf7e3773012c891cc9336df21a206d4d7f339aa91cf85ffb28ff4"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "bytes": 618,
+      "sha256": "1109295d7007b9b7c1e9abb5c3e40fd10bf8f51254df31c586c9fcbf3cbee980"
+    },
+    {
+      "path": "VALIDATION.md",
+      "bytes": 1981,
+      "sha256": "ad41b7064512e797723ee22569d9574be29a4f579e2c9fe2973523d170c33cdf"
+    }
+  ]
+}

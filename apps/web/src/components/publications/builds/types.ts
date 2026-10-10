@@ -1,0 +1,10 @@
+import type { components } from "@/lib/generated";
+export type Options = components["schemas"]["BuildOptions"];
+export type Selection = Required<components["schemas"]["BuildSelection"]>;
+export type Preview = components["schemas"]["BuildPreview"];
+export type Build = components["schemas"]["BuildOut"];
+export type BuildPage = components["schemas"]["BuildPage"];
+export type Result = components["schemas"]["ServerResultOut"];
+export type ResultPage = components["schemas"]["ServerResultPage"];
+export type Figure = Selection["figures"][number];
+export type Table = Selection["tables"][number];

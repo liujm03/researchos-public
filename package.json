@@ -1,0 +1,11 @@
+{
+  "name": "research-os",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @researchos/web dev",
+    "build:web": "pnpm --filter @researchos/web build",
+    "typecheck:web": "pnpm --filter @researchos/web typecheck",
+    "lint:web": "pnpm --filter @researchos/web lint"
+  }
+}

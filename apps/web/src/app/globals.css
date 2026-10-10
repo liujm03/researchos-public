@@ -1,0 +1,468 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+:root {
+  color-scheme: dark;
+  --background: #181818;
+  --surface: #242424;
+  --surface-hover: #303030;
+  --foreground: #fafafa;
+  --muted: #eeeeee;
+  --border: #484848;
+  --accent: #ffc2bb;
+  --accent-hover: #ffe0dc;
+  --accent-fill: #e81400;
+  --accent-fill-hover: #c71100;
+  --danger: #ffb4ad;
+}
+
+.dark {
+  color-scheme: dark;
+  --background: #181818;
+  --surface: #202020;
+  --surface-hover: #2c2c2c;
+  --foreground: #fafafa;
+  --muted: #eeeeee;
+  --border: #484848;
+  --accent: #ffc2bb;
+  --accent-hover: #ffe0dc;
+  --danger: #ffb4ad;
+}
+
+* {
+  box-sizing: border-box;
+}
+html {
+  font-family:
+    Inter,
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+}
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+}
+/* Owner wallpaper is a local runtime asset, excluded from the code archive. */
+.research-app-shell {
+  --wallpaper-opacity: 0.4;
+  --wallpaper-blur: 0px;
+  --wallpaper-saturation: 1;
+  color-scheme: dark;
+  --foreground: #fafafa;
+  --muted: #eeeeee;
+  --accent: #ffc2bb;
+  --accent-hover: #ffe0dc;
+  --danger: #ffb4ad;
+  --text-xs: 0.875rem;
+  --text-sm: 1rem;
+  --text-base: 1.125rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.375rem;
+  --text-2xl: 1.625rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.375rem;
+  --background: rgb(24 24 24 / 32%);
+  --surface: rgb(24 24 24 / 32%);
+  --surface-hover: rgb(48 48 48 / 45%);
+  --border: rgb(235 235 235 / 22%);
+  position: relative;
+  isolation: isolate;
+  color: var(--foreground);
+  font-size: 1.125rem;
+}
+.research-app-shell [class*="text-[10px]"] {
+  font-size: 0.75rem;
+  line-height: 1.25;
+}
+.research-app-shell [class*="text-[11px]"] {
+  font-size: 0.8125rem;
+  line-height: 1.25;
+}
+.dark .research-app-shell {
+  --background: rgb(24 24 24 / 40%);
+  --surface: rgb(24 24 24 / 40%);
+  --surface-hover: rgb(48 48 48 / 50%);
+}
+:is(button, a, div)[class*="text-white"][class*="bg-[var(--accent)]"] {
+  background-color: var(--accent-fill);
+}
+:is(button, a)[class*="text-white"][class*="bg-[var(--accent)]"]:hover {
+  background-color: var(--accent-fill-hover);
+}
+.research-app-shell
+  :is(button, a)[class*="text-white"][class*="bg-[var(--danger)]"] {
+  background-color: #b11919;
+}
+.research-app-shell nav a[class*="bg-[var(--accent)]"] {
+  background-color: rgb(232 20 0 / 20%);
+  color: #ffffff;
+  box-shadow: inset 3px 0 var(--accent-fill);
+}
+.research-app-shell::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: none;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: var(--wallpaper-opacity);
+  filter: saturate(var(--wallpaper-saturation)) blur(var(--wallpaper-blur));
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+::selection {
+  background: color-mix(in srgb, var(--accent) 28%, transparent);
+}
+
+/* Markdown is a readonly view over original research text. Font assets are bundled locally. */
+.markdown-content {
+  min-width: 0;
+  font-size: 1.25rem;
+  line-height: 1.85;
+  overflow-wrap: anywhere;
+  color: var(--foreground);
+}
+.markdown-content > :first-child {
+  margin-top: 0;
+}
+.markdown-content > :last-child {
+  margin-bottom: 0;
+}
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3,
+.markdown-content h4,
+.markdown-content h5,
+.markdown-content h6 {
+  font-weight: 650;
+  line-height: 1.45;
+  margin: 1.5em 0 0.55em;
+}
+.markdown-content h1 {
+  font-size: 1.5em;
+}
+.markdown-content h2 {
+  font-size: 1.3em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--border);
+}
+.markdown-content h3 {
+  font-size: 1.15em;
+}
+.markdown-content p,
+.markdown-content ul,
+.markdown-content ol,
+.markdown-content blockquote {
+  margin: 0.75em 0;
+}
+.markdown-content ul {
+  list-style: disc;
+  padding-left: 1.6em;
+}
+.markdown-content ol {
+  list-style: decimal;
+  padding-left: 1.6em;
+}
+.markdown-content li > p {
+  margin: 0.3em 0;
+}
+.markdown-content .contains-task-list {
+  list-style: none;
+  padding-left: 0.3em;
+}
+.markdown-content .task-list-item input {
+  margin-right: 0.55em;
+}
+.markdown-content blockquote {
+  border-left: 3px solid var(--border);
+  padding: 0.15em 1em;
+  color: var(--muted);
+}
+.markdown-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+.markdown-content a:focus-visible,
+.markdown-table-scroll:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+.markdown-content code {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 0.9em;
+  background: var(--surface-hover);
+  padding: 0.12em 0.35em;
+  border-radius: 0.25rem;
+}
+.markdown-content pre,
+.markdown-raw {
+  max-width: 100%;
+  overflow-x: auto;
+  white-space: pre;
+  padding: 0.9rem;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  background: var(--background);
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+  font-size: 1.0625rem;
+  line-height: 1.65;
+}
+.markdown-content pre code {
+  padding: 0;
+  background: none;
+  font-size: inherit;
+}
+.markdown-table-scroll {
+  max-width: 100%;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+.markdown-content table {
+  min-width: 100%;
+  width: max-content;
+  border-collapse: collapse;
+  font-size: 1.1875rem;
+}
+.markdown-content th,
+.markdown-content td {
+  border: 1px solid var(--border);
+  padding: 0.45em 0.8em;
+  vertical-align: top;
+  max-width: 38rem;
+}
+.markdown-content th {
+  background: var(--surface-hover);
+  font-weight: 600;
+  text-align: left;
+}
+.markdown-content tr:nth-child(even) td {
+  background: color-mix(in srgb, var(--surface-hover) 40%, transparent);
+}
+.markdown-content hr {
+  margin: 1.4rem 0;
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+.markdown-content .katex-display {
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding: 0.5em 0;
+}
+.markdown-content .katex-error,
+.markdown-error {
+  color: var(--danger);
+  font-size: 1.125rem;
+  overflow-wrap: anywhere;
+}
+.markdown-content .footnotes {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 1.125rem;
+}
+.markdown-frontmatter {
+  margin-bottom: 1rem;
+  padding: 0.5em 0.8em;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+  color: var(--muted);
+}
+.markdown-frontmatter summary {
+  cursor: pointer;
+  font-size: 1.125rem;
+}
+.markdown-image-reference {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5em;
+  padding: 0.5em 0.75em;
+  border: 1px solid var(--border);
+  border-radius: 0.35rem;
+  color: var(--muted);
+  font-size: 1.125rem;
+}
+.markdown-image-reference code {
+  white-space: normal;
+}
+.markdown-reference-hint,
+.markdown-empty {
+  color: var(--muted);
+  font-size: 1.125rem;
+}
+.markdown-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem;
+  margin-bottom: 0.75rem;
+}
+.markdown-toolbar button {
+  min-height: 2.25rem;
+  height: auto;
+  padding-block: 0.35rem;
+  font-size: 1.125rem;
+}
+.markdown-copy-status {
+  color: var(--muted);
+  font-size: 1rem;
+}
+
+/* Read-only homepage cockpit; uses the owner wallpaper palette. */
+.dashboard-overview {
+  min-width: 0;
+  border: 1px solid var(--border);
+  border-top: 2px solid var(--accent-fill);
+  border-radius: 0.85rem;
+  background: rgb(18 18 18 / 55%);
+  overflow: hidden;
+}
+.dashboard-overview-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem;
+}
+.dashboard-ai-state {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: var(--text-xs);
+  padding: 0.45rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+}
+.dashboard-metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
+  padding: 0 1.25rem 1.25rem;
+}
+.dashboard-metric {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: rgb(32 32 32 / 28%);
+}
+.dashboard-metric:hover {
+  border-color: var(--accent-fill);
+  background: rgb(232 20 0 / 8%);
+}
+.dashboard-metric:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.dashboard-metric-value {
+  font-size: 1.9rem;
+  line-height: 1;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+}
+.dashboard-chart-grid {
+  display: grid;
+  gap: 1rem;
+  padding: 0 1.25rem 1.25rem;
+}
+.dashboard-chart-panel {
+  min-width: 0;
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: rgb(24 24 24 / 22%);
+}
+.dashboard-chart {
+  height: 235px;
+  width: 100%;
+  min-width: 0;
+}
+.dashboard-pipeline {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.45rem;
+}
+.dashboard-stage {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.7rem;
+  border: 1px solid var(--border);
+  border-radius: 0.4rem;
+}
+.dashboard-stage-active {
+  border-color: var(--accent-fill);
+  background: rgb(232 20 0 / 10%);
+}
+.dashboard-stat-details {
+  border-top: 1px solid var(--border);
+  padding: 0.9rem 1.25rem;
+}
+.dashboard-stat-details summary {
+  cursor: pointer;
+  font-size: var(--text-xs);
+  color: var(--muted);
+}
+.dashboard-stat-details th,
+.dashboard-stat-details td {
+  padding: 0.35rem 0.5rem;
+  border-bottom: 1px solid var(--border);
+}
+.dashboard-overview:fullscreen {
+  background: #181818;
+  border-radius: 0;
+  overflow-y: auto;
+  padding: 1rem;
+  color: #fafafa;
+}
+.dashboard-overview:fullscreen .dashboard-chart,
+.dashboard-overview-expanded .dashboard-chart {
+  height: 340px;
+}
+.dashboard-overview:fullscreen .dashboard-overview-header {
+  position: sticky;
+  top: -1rem;
+  z-index: 2;
+  background: #181818;
+}
+@media (min-width: 768px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .dashboard-chart-grid {
+    grid-template-columns: minmax(0, 1.7fr) minmax(0, 1fr);
+  }
+  .dashboard-pipeline {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+@media (min-width: 1280px) {
+  .dashboard-metrics {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+  .dashboard-pipeline {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+  }
+}
